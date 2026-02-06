@@ -13,6 +13,7 @@ library(dplyr)
 acc_games <- read.csv("data/acc_games_cleaned.csv")
 acc_teams_stats <- read.csv("data/combined_acc.csv") |>
   mutate(opponent = TeamName)
+predict <- read.csv("data/2026_predict.csv") 
 ```
 
 ```{r}
@@ -94,9 +95,41 @@ merged_all <- left_join(
 ```{r}
 model_1 <- lm(diff ~ diff_eFGPct + diff_TOPct + diff_ORPct + diff_FTRate, data = merged_all)
 
-summary(model_1)$r.squared
+summary(model_1)
 ```
+
 ```{r}
 
+predicted <- predict(model_1, newdata = merged_all)
+
+merged_w_predicted <- merged_all |>
+  mutate(predicted = predict(model_1, newdata = merged_all))
+```
+
+
+
+```{r}
+stats_2026 <- acc_teams_stats |>
+  filter(Season == 2026)
+
+predict <- predict |>
+  select(Away, Home) |>
+  rename(
+    "TeamName" = "Home",
+    "opponent" = "Away"
+  )
+
+left_join(
+  predict,
+  stats_2026,
+  by = "TeamName"
+) |>
+  drop_na() |>
+  rename("home_eFGPct" = "eFGPct",
+         "home_TOPct" = "TOPct",
+         "home_ORPct" = "ORPct",
+         "home_FTRate" = "FTRate",
+         "opponent" = "opponent.x"
+  )
 ```
 
