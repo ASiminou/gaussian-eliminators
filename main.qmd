@@ -9,6 +9,72 @@ format: html
 #| message: false
 library(tidyverse)
 library(ncaahoopR)
+library(dplyr)
+library(purrr)
+library(stringr)
 
 ```
+
+```{r}
+acc_teams1 <- c(
+  "Duke", "North Carolina", "Virginia", "Pittsburgh", "Clemson",
+  "Syracuse", "Virginia Tech", "Florida State", "NC State",
+  "Wake Forest", "Boston College", "Georgia Tech",
+  "Notre Dame", "Miami", "SMU", "Cal", "Stanford", "Louisville"
+)
+
+acc_teams2 <- c(
+  "Duke", "UNC", "UVA", "Pitt", "Clemson",
+  "Syracuse", "Virginia Tech", "Florida State", "NC State",
+  "Wake Forest", "Boston College", "Georgia Tech",
+  "Notre Dame", "Miami", "SMU", "Cal", "Stanford", "Louisville"
+)
+
+
+years <- 2020:2025
+```
+
+
+
+
+```{r}
+get_acc_games <- function(team, year) {
+  get_schedule(team, year) |>
+    filter(opponent %in% acc_teams1) |>
+    mutate(
+      season = year,
+      opponent = opponent, 
+      team = team
+    ) |>
+    select(
+      season,
+      date,
+      team,
+      opponent,
+      location,
+      team_score,
+      opp_score,
+    )
+}
+
+```
+
+```{r}
+acc_games <- data.frame()
+
+for(team in acc_teams2){
+  for(year in years){
+    sched <- get_schedule(team, year)
+    acc_games <- bind_rows(acc_games, sched)
+  }
+}
+```
+
+
+```{r}
+acc_games
+```
+
+
+
 
