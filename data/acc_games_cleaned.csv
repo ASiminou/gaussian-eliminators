@@ -122,12 +122,10 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2020,2021-01-23,UNC,NC State,H,86,76,10
 2020,2021-01-26,UNC,Pitt,A,75,65,10
 2020,2021-02-02,UNC,Clemson,A,50,63,-13
-2020,2021-02-06,UNC,Duke,A,91,87,4
 2020,2021-02-13,UNC,UVA,A,48,60,-12
 2020,2021-02-20,UNC,Louisville,H,99,54,45
 2020,2021-02-27,UNC,Florida State,H,78,70,8
 2020,2021-03-01,UNC,Syracuse,A,70,72,-2
-2020,2021-03-06,UNC,Duke,H,91,73,18
 2020,2021-03-11,UNC,Virginia Tech,N,81,73,8
 2020,2021-03-12,UNC,Florida State,N,66,69,-3
 2021,2021-12-05,UNC,Georgia Tech,A,79,62,17
@@ -140,7 +138,6 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2021,2022-01-26,UNC,Boston College,H,58,47,11
 2021,2022-01-29,UNC,NC State,H,100,80,20
 2021,2022-02-01,UNC,Louisville,A,90,83,7
-2021,2022-02-05,UNC,Duke,H,67,87,-20
 2021,2022-02-08,UNC,Clemson,A,79,77,2
 2021,2022-02-12,UNC,Florida State,H,94,74,20
 2021,2022-02-16,UNC,Pitt,H,67,76,-9
@@ -148,10 +145,8 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2021,2022-02-21,UNC,Louisville,H,70,63,7
 2021,2022-02-26,UNC,NC State,A,84,74,10
 2021,2022-02-28,UNC,Syracuse,H,88,79,9
-2021,2022-03-05,UNC,Duke,A,94,81,13
 2021,2022-03-10,UNC,UVA,N,63,43,20
 2021,2022-03-11,UNC,Virginia Tech,N,59,72,-13
-2021,2022-04-02,UNC,Duke,N,81,77,4
 2022,2022-12-04,UNC,Virginia Tech,A,72,80,-8
 2022,2022-12-10,UNC,Georgia Tech,H,75,59,16
 2022,2022-12-30,UNC,Pitt,A,74,76,-2
@@ -162,14 +157,12 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2022,2023-01-21,UNC,NC State,H,80,69,11
 2022,2023-01-24,UNC,Syracuse,A,72,68,4
 2022,2023-02-01,UNC,Pitt,H,64,65,-1
-2022,2023-02-04,UNC,Duke,A,57,63,-6
 2022,2023-02-07,UNC,Wake Forest,A,85,92,-7
 2022,2023-02-11,UNC,Clemson,H,91,71,20
 2022,2023-02-13,UNC,Miami,H,72,80,-8
 2022,2023-02-19,UNC,NC State,A,69,77,-8
 2022,2023-02-25,UNC,UVA,H,71,63,8
 2022,2023-02-27,UNC,Florida State,A,77,66,11
-2022,2023-03-04,UNC,Duke,H,57,62,-5
 2022,2023-03-08,UNC,Boston College,N,85,61,24
 2022,2023-03-09,UNC,UVA,N,59,68,-9
 2023,2023-12-02,UNC,Florida State,H,78,70,8
@@ -182,7 +175,6 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2023,2024-01-22,UNC,Wake Forest,H,85,64,21
 2023,2024-01-27,UNC,Florida State,A,75,68,7
 2023,2024-01-30,UNC,Georgia Tech,A,73,74,-1
-2023,2024-02-03,UNC,Duke,H,93,84,9
 2023,2024-02-06,UNC,Clemson,H,76,80,-4
 2023,2024-02-10,UNC,Miami,A,75,72,3
 2023,2024-02-13,UNC,Syracuse,A,79,86,-7
@@ -190,7 +182,6 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2023,2024-02-24,UNC,UVA,A,54,44,10
 2023,2024-02-26,UNC,Miami,H,75,71,4
 2023,2024-03-02,UNC,NC State,H,79,70,9
-2023,2024-03-09,UNC,Duke,A,84,79,5
 2023,2024-03-14,UNC,Florida State,N,92,67,25
 2023,2024-03-15,UNC,Pitt,N,72,65,7
 2023,2024-03-16,UNC,NC State,N,76,84,-8
@@ -202,7 +193,6 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2024,2025-01-21,UNC,Wake Forest,A,66,67,-1
 2024,2025-01-25,UNC,Boston College,H,102,96,6
 2024,2025-01-28,UNC,Pitt,A,65,73,-8
-2024,2025-02-01,UNC,Duke,A,70,87,-17
 2024,2025-02-08,UNC,Pitt,H,67,66,1
 2024,2025-02-10,UNC,Clemson,A,65,85,-20
 2024,2025-02-15,UNC,Syracuse,A,88,82,6
@@ -211,9 +201,7 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2024,2025-02-24,UNC,Florida State,A,96,85,11
 2024,2025-03-01,UNC,Miami,H,92,73,19
 2024,2025-03-04,UNC,Virginia Tech,A,91,59,32
-2024,2025-03-08,UNC,Duke,H,69,82,-13
 2024,2025-03-13,UNC,Wake Forest,N,68,59,9
-2024,2025-03-14,UNC,Duke,N,71,74,-3
 2025,2025-12-30,UNC,Florida State,H,79,66,13
 2025,2026-01-03,UNC,SMU,A,83,97,-14
 2025,2026-01-10,UNC,Wake Forest,H,87,84,3
@@ -230,9 +218,7 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2020,2021-02-03,UVA,NC State,A,64,57,7
 2020,2021-02-06,UVA,Pitt,H,73,66,7
 2020,2021-02-10,UVA,Georgia Tech,A,57,49,8
-2020,2021-02-13,UVA,UNC,H,60,48,12
 2020,2021-02-15,UVA,Florida State,A,60,81,-21
-2020,2021-02-20,UVA,Duke,A,65,66,-1
 2020,2021-02-24,UVA,NC State,H,61,68,-7
 2020,2021-03-01,UVA,Miami,H,62,51,11
 2020,2021-03-06,UVA,Louisville,A,68,58,10
@@ -242,7 +228,6 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2021,2021-12-22,UVA,Clemson,H,50,67,-17
 2021,2022-01-01,UVA,Syracuse,A,74,69,5
 2021,2022-01-04,UVA,Clemson,A,75,65,10
-2021,2022-01-08,UVA,UNC,A,58,74,-16
 2021,2022-01-12,UVA,Virginia Tech,H,54,52,2
 2021,2022-01-15,UVA,Wake Forest,H,55,63,-8
 2021,2022-01-19,UVA,Pitt,A,66,61,5
@@ -250,21 +235,17 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2021,2022-01-24,UVA,Louisville,H,64,52,12
 2021,2022-02-01,UVA,Boston College,H,67,55,12
 2021,2022-02-05,UVA,Miami,H,71,58,13
-2021,2022-02-07,UVA,Duke,A,69,68,1
 2021,2022-02-12,UVA,Georgia Tech,H,63,53,10
 2021,2022-02-14,UVA,Virginia Tech,A,53,62,-9
 2021,2022-02-19,UVA,Miami,A,74,71,3
-2021,2022-02-23,UVA,Duke,H,61,65,-4
 2021,2022-02-26,UVA,Florida State,H,63,64,-1
 2021,2022-03-05,UVA,Louisville,A,71,61,10
 2021,2022-03-09,UVA,Louisville,N,51,50,1
-2021,2022-03-10,UVA,UNC,N,43,63,-20
 2022,2022-12-03,UVA,Florida State,H,62,57,5
 2022,2022-12-20,UVA,Miami,A,64,66,-2
 2022,2022-12-31,UVA,Georgia Tech,A,74,56,18
 2022,2023-01-03,UVA,Pitt,A,65,68,-3
 2022,2023-01-07,UVA,Syracuse,H,73,66,7
-2022,2023-01-10,UVA,UNC,H,65,58,7
 2022,2023-01-14,UVA,Florida State,A,67,58,9
 2022,2023-01-18,UVA,Virginia Tech,H,78,68,10
 2022,2023-01-21,UVA,Wake Forest,A,76,67,9
@@ -272,15 +253,11 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2022,2023-01-30,UVA,Syracuse,A,67,62,5
 2022,2023-02-04,UVA,Virginia Tech,A,68,74,-6
 2022,2023-02-07,UVA,NC State,H,63,50,13
-2022,2023-02-11,UVA,Duke,H,69,62,7
 2022,2023-02-15,UVA,Louisville,A,61,58,3
 2022,2023-02-22,UVA,Boston College,A,48,63,-15
-2022,2023-02-25,UVA,UNC,A,63,71,-8
 2022,2023-02-28,UVA,Clemson,H,64,57,7
 2022,2023-03-04,UVA,Louisville,H,75,60,15
-2022,2023-03-09,UVA,UNC,N,68,59,9
 2022,2023-03-10,UVA,Clemson,N,76,56,20
-2022,2023-03-11,UVA,Duke,N,49,59,-10
 2023,2023-12-02,UVA,Syracuse,H,84,62,22
 2023,2024-01-03,UVA,Louisville,H,77,53,24
 2023,2024-01-06,UVA,NC State,A,60,76,-16
@@ -295,9 +272,7 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2023,2024-02-13,UVA,Pitt,H,63,74,-11
 2023,2024-02-17,UVA,Wake Forest,H,49,47,2
 2023,2024-02-19,UVA,Virginia Tech,A,41,75,-34
-2023,2024-02-24,UVA,UNC,H,44,54,-10
 2023,2024-02-28,UVA,Boston College,A,72,68,4
-2023,2024-03-02,UVA,Duke,A,48,73,-25
 2023,2024-03-09,UVA,Georgia Tech,H,72,57,15
 2023,2024-03-14,UVA,Boston College,N,66,60,6
 2023,2024-03-15,UVA,NC State,N,65,73,-8
@@ -313,8 +288,6 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2024,2025-02-03,UVA,Pitt,A,73,57,16
 2024,2025-02-08,UVA,Georgia Tech,H,75,61,14
 2024,2025-02-15,UVA,Virginia Tech,A,73,70,3
-2024,2025-02-17,UVA,Duke,H,62,80,-18
-2024,2025-02-22,UVA,UNC,A,66,81,-15
 2024,2025-02-26,UVA,Wake Forest,A,83,75,8
 2024,2025-03-01,UVA,Clemson,H,58,71,-13
 2024,2025-03-04,UVA,Florida State,H,60,57,3
@@ -325,18 +298,14 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2025,2026-01-10,UVA,Stanford,H,70,55,15
 2025,2026-01-13,UVA,Louisville,A,79,70,9
 2025,2026-01-17,UVA,SMU,A,72,68,4
-2025,2026-01-24,UVA,UNC,H,80,85,-5
 2025,2026-01-31,UVA,Boston College,A,73,66,7
 2025,2026-02-03,UVA,Pitt,H,67,47,20
 2020,2020-12-16,Pitt,Miami,A,70,55,15
 2020,2020-12-22,Pitt,Louisville,H,54,64,-10
 2020,2021-01-06,Pitt,Syracuse,A,63,60,3
 2020,2021-01-16,Pitt,Syracuse,H,96,76,20
-2020,2021-01-19,Pitt,Duke,H,79,73,6
 2020,2021-01-23,Pitt,Wake Forest,A,75,76,-1
-2020,2021-01-26,Pitt,UNC,H,65,75,-10
 2020,2021-02-03,Pitt,Virginia Tech,H,83,72,11
-2020,2021-02-06,Pitt,UVA,A,66,73,-7
 2020,2021-02-14,Pitt,Georgia Tech,A,65,71,-6
 2020,2021-02-17,Pitt,NC State,H,73,74,-1
 2020,2021-02-20,Pitt,Florida State,H,72,79,-7
@@ -344,12 +313,10 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2020,2021-03-02,Pitt,Wake Forest,H,70,57,13
 2020,2021-03-06,Pitt,Clemson,A,62,77,-15
 2020,2021-03-09,Pitt,Miami,N,73,79,-6
-2021,2021-12-03,Pitt,UVA,A,56,57,-1
 2021,2022-01-05,Pitt,Louisville,A,72,75,-3
 2021,2022-01-08,Pitt,Boston College,H,69,67,2
 2021,2022-01-11,Pitt,Syracuse,A,61,77,-16
 2021,2022-01-15,Pitt,Louisville,H,65,53,12
-2021,2022-01-19,Pitt,UVA,H,61,66,-5
 2021,2022-01-22,Pitt,Clemson,A,48,75,-27
 2021,2022-01-25,Pitt,Syracuse,H,64,53,11
 2021,2022-01-30,Pitt,Boston College,A,56,69,-13
@@ -358,23 +325,17 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2021,2022-02-07,Pitt,Virginia Tech,A,47,74,-27
 2021,2022-02-09,Pitt,Florida State,A,56,51,5
 2021,2022-02-12,Pitt,NC State,H,71,69,2
-2021,2022-02-16,Pitt,UNC,A,76,67,9
 2021,2022-02-19,Pitt,Georgia Tech,H,62,68,-6
 2021,2022-02-22,Pitt,Miami,H,64,85,-21
-2021,2022-03-01,Pitt,Duke,H,56,86,-30
 2021,2022-03-08,Pitt,Boston College,N,46,66,-20
 2022,2022-12-02,Pitt,NC State,A,68,60,8
 2022,2022-12-20,Pitt,Syracuse,A,84,82,2
-2022,2022-12-30,Pitt,UNC,H,76,74,2
-2022,2023-01-03,Pitt,UVA,H,68,65,3
 2022,2023-01-07,Pitt,Clemson,H,74,75,-1
-2022,2023-01-11,Pitt,Duke,A,69,77,-8
 2022,2023-01-14,Pitt,Georgia Tech,A,71,60,11
 2022,2023-01-18,Pitt,Louisville,A,75,54,21
 2022,2023-01-21,Pitt,Florida State,H,64,71,-7
 2022,2023-01-25,Pitt,Wake Forest,H,81,79,2
 2022,2023-01-28,Pitt,Miami,H,71,68,3
-2022,2023-02-01,Pitt,UNC,A,65,64,1
 2022,2023-02-07,Pitt,Louisville,H,91,57,34
 2022,2023-02-11,Pitt,Florida State,A,83,75,8
 2022,2023-02-14,Pitt,Boston College,H,77,58,19
@@ -383,19 +344,14 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2022,2023-02-25,Pitt,Syracuse,H,99,82,17
 2022,2023-03-04,Pitt,Miami,A,76,78,-2
 2022,2023-03-08,Pitt,Georgia Tech,N,89,81,8
-2022,2023-03-09,Pitt,Duke,N,69,96,-27
 2023,2023-12-03,Pitt,Clemson,H,70,79,-9
 2023,2023-12-30,Pitt,Syracuse,A,73,81,-8
-2023,2024-01-02,Pitt,UNC,H,57,70,-13
 2023,2024-01-06,Pitt,Louisville,A,83,70,13
-2023,2024-01-09,Pitt,Duke,H,53,75,-22
 2023,2024-01-16,Pitt,Syracuse,H,58,69,-11
-2023,2024-01-20,Pitt,Duke,A,80,76,4
 2023,2024-01-23,Pitt,Georgia Tech,A,72,64,8
 2023,2024-01-27,Pitt,Miami,A,68,72,-4
 2023,2024-01-31,Pitt,Wake Forest,H,77,72,5
 2023,2024-02-07,Pitt,NC State,A,67,64,3
-2023,2024-02-13,Pitt,UVA,A,74,63,11
 2023,2024-02-17,Pitt,Louisville,H,86,59,27
 2023,2024-02-20,Pitt,Wake Forest,A,58,91,-33
 2023,2024-02-24,Pitt,Virginia Tech,H,79,64,15
@@ -404,18 +360,13 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2023,2024-03-05,Pitt,Florida State,H,88,73,15
 2023,2024-03-09,Pitt,NC State,H,81,73,8
 2023,2024-03-14,Pitt,Wake Forest,N,81,69,12
-2023,2024-03-15,Pitt,UNC,N,65,72,-7
 2024,2024-12-07,Pitt,Virginia Tech,A,64,59,5
 2024,2025-01-04,Pitt,Stanford,H,83,68,15
-2024,2025-01-07,Pitt,Duke,A,47,76,-29
 2024,2025-01-11,Pitt,Louisville,H,78,82,-4
 2024,2025-01-15,Pitt,Florida State,A,70,82,-12
 2024,2025-01-18,Pitt,Clemson,H,75,78,-3
 2024,2025-01-25,Pitt,Syracuse,A,77,73,4
-2024,2025-01-28,Pitt,UNC,H,73,65,8
 2024,2025-02-01,Pitt,Wake Forest,A,74,76,-2
-2024,2025-02-03,Pitt,UVA,H,57,73,-16
-2024,2025-02-08,Pitt,UNC,A,66,67,-1
 2024,2025-02-11,Pitt,SMU,A,63,83,-20
 2024,2025-02-15,Pitt,Miami,H,74,65,9
 2024,2025-02-18,Pitt,Syracuse,H,80,69,11
@@ -432,36 +383,25 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2025,2026-01-24,Pitt,NC State,H,72,81,-9
 2025,2026-01-27,Pitt,Wake Forest,H,80,76,4
 2025,2026-01-31,Pitt,Clemson,A,52,63,-11
-2025,2026-02-03,Pitt,UVA,A,47,67,-20
 2020,2020-12-15,Clemson,Virginia Tech,A,60,66,-6
 2020,2020-12-29,Clemson,Florida State,H,77,67,10
 2020,2021-01-02,Clemson,Miami,A,66,65,1
 2020,2021-01-05,Clemson,NC State,H,74,70,4
-2020,2021-01-16,Clemson,UVA,H,50,85,-35
 2020,2021-01-20,Clemson,Georgia Tech,A,65,83,-18
 2020,2021-01-23,Clemson,Florida State,A,61,80,-19
 2020,2021-01-27,Clemson,Louisville,H,54,50,4
-2020,2021-01-30,Clemson,Duke,A,53,79,-26
-2020,2021-02-02,Clemson,UNC,H,63,50,13
 2020,2021-02-06,Clemson,Syracuse,H,78,61,17
 2020,2021-02-12,Clemson,Georgia Tech,H,74,72,2
 2020,2021-02-24,Clemson,Wake Forest,A,60,39,21
 2020,2021-02-27,Clemson,Miami,H,66,58,8
 2020,2021-03-03,Clemson,Syracuse,A,54,64,-10
-2020,2021-03-06,Clemson,Pitt,H,77,62,15
 2020,2021-03-10,Clemson,Miami,N,64,67,-3
 2021,2021-12-04,Clemson,Miami,A,75,80,-5
-2021,2021-12-22,Clemson,UVA,A,67,50,17
-2021,2022-01-04,Clemson,UVA,H,65,75,-10
 2021,2022-01-08,Clemson,NC State,A,70,65,5
 2021,2022-01-15,Clemson,Boston College,H,68,70,-2
 2021,2022-01-18,Clemson,Syracuse,A,78,91,-13
-2021,2022-01-22,Clemson,Pitt,H,75,48,27
-2021,2022-01-25,Clemson,Duke,A,69,71,-2
 2021,2022-02-02,Clemson,Florida State,H,75,69,6
 2021,2022-02-05,Clemson,Georgia Tech,A,64,69,-5
-2021,2022-02-08,Clemson,UNC,H,77,79,-2
-2021,2022-02-10,Clemson,Duke,H,64,82,-18
 2021,2022-02-15,Clemson,Florida State,A,80,81,-1
 2021,2022-02-19,Clemson,Louisville,A,61,70,-9
 2021,2022-02-23,Clemson,Wake Forest,H,80,69,11
@@ -474,40 +414,29 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2022,2022-12-21,Clemson,Georgia Tech,A,79,66,13
 2022,2022-12-30,Clemson,NC State,H,78,64,14
 2022,2023-01-04,Clemson,Virginia Tech,A,68,65,3
-2022,2023-01-07,Clemson,Pitt,A,75,74,1
 2022,2023-01-11,Clemson,Louisville,H,83,70,13
-2022,2023-01-14,Clemson,Duke,H,72,64,8
 2022,2023-01-17,Clemson,Wake Forest,A,77,87,-10
 2022,2023-01-21,Clemson,Virginia Tech,H,51,50,1
 2022,2023-01-24,Clemson,Georgia Tech,H,72,51,21
 2022,2023-01-28,Clemson,Florida State,A,82,81,1
 2022,2023-01-31,Clemson,Boston College,A,54,62,-8
 2022,2023-02-04,Clemson,Miami,H,74,78,-4
-2022,2023-02-11,Clemson,UNC,A,71,91,-20
 2022,2023-02-15,Clemson,Florida State,H,94,54,40
 2022,2023-02-18,Clemson,Louisville,A,73,83,-10
 2022,2023-02-22,Clemson,Syracuse,H,91,73,18
 2022,2023-02-25,Clemson,NC State,A,96,71,25
-2022,2023-02-28,Clemson,UVA,A,57,64,-7
 2022,2023-03-09,Clemson,NC State,N,80,54,26
-2022,2023-03-10,Clemson,UVA,N,56,76,-20
-2023,2023-12-03,Clemson,Pitt,A,79,70,9
 2023,2024-01-03,Clemson,Miami,A,82,95,-13
-2023,2024-01-06,Clemson,UNC,H,55,65,-10
 2023,2024-01-10,Clemson,Virginia Tech,A,72,87,-15
 2023,2024-01-13,Clemson,Boston College,H,89,78,11
 2023,2024-01-16,Clemson,Georgia Tech,H,90,93,-3
 2023,2024-01-20,Clemson,Florida State,A,78,67,11
-2023,2024-01-27,Clemson,Duke,A,71,72,-1
 2023,2024-01-30,Clemson,Louisville,H,70,64,6
-2023,2024-02-03,Clemson,UVA,H,65,66,-1
-2023,2024-02-06,Clemson,UNC,A,80,76,4
 2023,2024-02-10,Clemson,Syracuse,A,77,68,9
 2023,2024-02-14,Clemson,Miami,H,77,60,17
 2023,2024-02-17,Clemson,NC State,H,77,78,-1
 2023,2024-02-21,Clemson,Georgia Tech,A,81,57,24
 2023,2024-02-24,Clemson,Florida State,H,74,63,11
-2023,2024-02-27,Clemson,Pitt,H,69,62,7
 2023,2024-03-05,Clemson,Syracuse,H,90,75,15
 2023,2024-03-09,Clemson,Wake Forest,A,76,81,-5
 2023,2024-03-13,Clemson,Boston College,N,55,76,-21
@@ -517,55 +446,35 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2024,2025-01-07,Clemson,Louisville,A,64,74,-10
 2024,2025-01-11,Clemson,Florida State,H,77,57,20
 2024,2025-01-14,Clemson,Georgia Tech,A,70,59,11
-2024,2025-01-18,Clemson,Pitt,A,78,75,3
 2024,2025-01-22,Clemson,Syracuse,H,86,72,14
 2024,2025-01-25,Clemson,Virginia Tech,A,72,57,15
 2024,2025-02-01,Clemson,NC State,A,68,58,10
 2024,2025-02-04,Clemson,Georgia Tech,H,86,89,-3
-2024,2025-02-08,Clemson,Duke,H,77,71,6
-2024,2025-02-10,Clemson,UNC,H,85,65,20
 2024,2025-02-15,Clemson,Florida State,A,72,46,26
 2024,2025-02-22,Clemson,SMU,A,79,69,10
-2024,2025-03-01,Clemson,UVA,A,71,58,13
 2024,2025-03-05,Clemson,Boston College,A,78,69,9
 2024,2025-03-08,Clemson,Virginia Tech,H,65,47,18
 2024,2025-03-13,Clemson,SMU,N,57,54,3
 2024,2025-03-14,Clemson,Louisville,N,73,76,-3
 2025,2025-12-31,Clemson,Syracuse,A,64,61,3
-2025,2026-01-03,Clemson,Pitt,A,73,68,5
 2025,2026-01-07,Clemson,SMU,H,74,70,4
 2025,2026-01-13,Clemson,Boston College,H,74,50,24
 2025,2026-01-17,Clemson,Miami,H,69,59,10
 2025,2026-01-20,Clemson,NC State,H,76,80,-4
 2025,2026-01-24,Clemson,Georgia Tech,A,77,63,14
-2025,2026-01-31,Clemson,Pitt,H,63,52,11
 2025,2026-02-04,Clemson,Stanford,A,66,64,2
 2020,2020-12-12,Syracuse,Boston College,A,101,63,38
-2020,2021-01-06,Syracuse,Pitt,H,60,63,-3
-2020,2021-01-12,Syracuse,UNC,A,75,81,-6
-2020,2021-01-16,Syracuse,Pitt,A,76,96,-20
 2020,2021-01-19,Syracuse,Miami,H,83,57,26
 2020,2021-01-23,Syracuse,Virginia Tech,H,78,60,18
-2020,2021-01-25,Syracuse,UVA,A,58,81,-23
 2020,2021-01-31,Syracuse,NC State,H,76,73,3
-2020,2021-02-06,Syracuse,Clemson,A,61,78,-17
 2020,2021-02-09,Syracuse,NC State,A,77,68,9
 2020,2021-02-13,Syracuse,Boston College,H,75,67,8
-2020,2021-02-22,Syracuse,Duke,A,71,85,-14
 2020,2021-02-27,Syracuse,Georgia Tech,A,77,84,-7
-2020,2021-03-01,Syracuse,UNC,H,72,70,2
-2020,2021-03-03,Syracuse,Clemson,H,64,54,10
 2020,2021-03-10,Syracuse,NC State,N,89,68,21
-2020,2021-03-11,Syracuse,UVA,N,69,72,-3
 2021,2021-12-04,Syracuse,Florida State,A,63,60,3
-2021,2022-01-01,Syracuse,UVA,H,69,74,-5
 2021,2022-01-05,Syracuse,Miami,A,87,88,-1
 2021,2022-01-08,Syracuse,Wake Forest,A,74,77,-3
-2021,2022-01-11,Syracuse,Pitt,H,77,61,16
 2021,2022-01-15,Syracuse,Florida State,H,71,76,-5
-2021,2022-01-18,Syracuse,Clemson,H,91,78,13
-2021,2022-01-22,Syracuse,Duke,A,59,79,-20
-2021,2022-01-25,Syracuse,Pitt,A,53,64,-11
 2021,2022-01-29,Syracuse,Wake Forest,H,94,72,22
 2021,2022-02-02,Syracuse,NC State,A,89,82,7
 2021,2022-02-05,Syracuse,Louisville,H,92,69,23
@@ -573,835 +482,287 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2021,2022-02-12,Syracuse,Virginia Tech,A,59,71,-12
 2021,2022-02-19,Syracuse,Boston College,H,76,56,20
 2021,2022-02-21,Syracuse,Georgia Tech,H,74,73,1
-2021,2022-02-26,Syracuse,Duke,H,72,97,-25
-2021,2022-02-28,Syracuse,UNC,A,79,88,-9
 2021,2022-03-05,Syracuse,Miami,H,72,75,-3
 2021,2022-03-09,Syracuse,Florida State,N,96,57,39
-2021,2022-03-10,Syracuse,Duke,N,79,88,-9
-2022,2022-12-20,Syracuse,Pitt,H,82,84,-2
 2022,2022-12-31,Syracuse,Boston College,H,79,65,14
 2022,2023-01-03,Syracuse,Louisville,A,70,69,1
-2022,2023-01-07,Syracuse,UVA,A,66,73,-7
 2022,2023-01-11,Syracuse,Virginia Tech,H,82,72,10
 2022,2023-01-16,Syracuse,Miami,A,78,82,-4
 2022,2023-01-21,Syracuse,Georgia Tech,A,80,63,17
-2022,2023-01-24,Syracuse,UNC,H,68,72,-4
 2022,2023-01-28,Syracuse,Virginia Tech,A,70,85,-15
-2022,2023-01-30,Syracuse,UVA,H,62,67,-5
 2022,2023-02-04,Syracuse,Boston College,A,77,68,9
 2022,2023-02-08,Syracuse,Florida State,A,76,67,9
 2022,2023-02-14,Syracuse,NC State,H,75,72,3
-2022,2023-02-18,Syracuse,Duke,H,55,77,-22
-2022,2023-02-22,Syracuse,Clemson,A,73,91,-18
-2022,2023-02-25,Syracuse,Pitt,A,82,99,-17
 2022,2023-02-28,Syracuse,Georgia Tech,H,76,96,-20
 2022,2023-03-04,Syracuse,Wake Forest,H,72,63,9
 2022,2023-03-08,Syracuse,Wake Forest,N,74,77,-3
-2023,2023-12-02,Syracuse,UVA,A,62,84,-22
-2023,2023-12-30,Syracuse,Pitt,H,81,73,8
-2023,2024-01-02,Syracuse,Duke,A,66,86,-20
 2023,2024-01-10,Syracuse,Boston College,H,69,59,10
-2023,2024-01-13,Syracuse,UNC,A,67,103,-36
-2023,2024-01-16,Syracuse,Pitt,A,69,58,11
 2023,2024-01-20,Syracuse,Miami,H,72,69,3
 2023,2024-01-23,Syracuse,Florida State,H,69,85,-16
 2023,2024-01-27,Syracuse,NC State,H,77,65,12
 2023,2024-01-30,Syracuse,Boston College,A,75,80,-5
 2023,2024-02-03,Syracuse,Wake Forest,A,70,99,-29
 2023,2024-02-07,Syracuse,Louisville,H,94,92,2
-2023,2024-02-10,Syracuse,Clemson,H,68,77,-9
-2023,2024-02-13,Syracuse,UNC,H,86,79,7
 2023,2024-02-17,Syracuse,Georgia Tech,A,60,65,-5
 2023,2024-02-20,Syracuse,NC State,A,87,83,4
 2023,2024-02-27,Syracuse,Virginia Tech,H,84,71,13
 2023,2024-03-02,Syracuse,Louisville,A,82,76,6
-2023,2024-03-05,Syracuse,Clemson,A,75,90,-15
 2023,2024-03-13,Syracuse,NC State,N,65,83,-18
 2024,2024-12-31,Syracuse,Wake Forest,H,71,81,-10
 2024,2025-01-04,Syracuse,Florida State,A,74,90,-16
 2024,2025-01-07,Syracuse,Georgia Tech,H,62,55,7
 2024,2025-01-11,Syracuse,Boston College,A,79,71,8
 2024,2025-01-14,Syracuse,Louisville,H,61,85,-24
-2024,2025-01-22,Syracuse,Clemson,A,72,86,-14
-2024,2025-01-25,Syracuse,Pitt,H,73,77,-4
 2024,2025-01-29,Syracuse,Stanford,A,61,70,-9
-2024,2025-02-05,Syracuse,Duke,H,54,83,-29
 2024,2025-02-08,Syracuse,Boston College,H,95,86,9
 2024,2025-02-11,Syracuse,Miami,A,84,91,-7
-2024,2025-02-15,Syracuse,UNC,H,82,88,-6
-2024,2025-02-18,Syracuse,Pitt,A,69,80,-11
 2024,2025-02-26,Syracuse,NC State,H,74,60,14
 2024,2025-03-01,Syracuse,Virginia Tech,A,95,101,-6
 2024,2025-03-04,Syracuse,SMU,A,75,77,-2
-2024,2025-03-08,Syracuse,UVA,H,84,70,14
 2024,2025-03-11,Syracuse,Florida State,N,66,62,4
 2024,2025-03-12,Syracuse,SMU,N,53,73,-20
-2025,2025-12-31,Syracuse,Clemson,H,61,64,-3
 2025,2026-01-06,Syracuse,Georgia Tech,A,82,72,10
-2025,2026-01-10,Syracuse,Pitt,A,83,72,11
 2025,2026-01-13,Syracuse,Florida State,H,94,86,8
 2025,2026-01-17,Syracuse,Boston College,A,73,81,-8
 2025,2026-01-21,Syracuse,Virginia Tech,H,74,76,-2
 2025,2026-01-24,Syracuse,Miami,H,76,85,-9
 2025,2026-01-27,Syracuse,NC State,A,68,88,-20
-2025,2026-02-02,Syracuse,UNC,A,77,87,-10
-2020,2020-12-15,Virginia Tech,Clemson,H,66,60,6
 2020,2020-12-29,Virginia Tech,Miami,H,80,78,2
 2020,2021-01-06,Virginia Tech,Louisville,A,71,73,-2
-2020,2021-01-12,Virginia Tech,Duke,H,74,67,7
 2020,2021-01-17,Virginia Tech,Wake Forest,A,64,60,4
-2020,2021-01-23,Virginia Tech,Syracuse,A,60,78,-18
-2020,2021-01-30,Virginia Tech,UVA,H,65,51,14
-2020,2021-02-03,Virginia Tech,Pitt,A,72,83,-11
 2020,2021-02-06,Virginia Tech,Miami,A,80,76,4
 2020,2021-02-23,Virginia Tech,Georgia Tech,H,53,69,-16
 2020,2021-02-27,Virginia Tech,Wake Forest,H,84,46,38
-2020,2021-03-11,Virginia Tech,UNC,N,73,81,-8
 2021,2021-12-04,Virginia Tech,Wake Forest,H,61,80,-19
-2021,2021-12-22,Virginia Tech,Duke,A,65,76,-11
 2021,2022-01-04,Virginia Tech,NC State,H,63,68,-5
-2021,2022-01-12,Virginia Tech,UVA,A,52,54,-2
 2021,2022-01-19,Virginia Tech,NC State,A,62,59,3
 2021,2022-01-22,Virginia Tech,Boston College,A,63,68,-5
-2021,2022-01-24,Virginia Tech,UNC,A,68,78,-10
 2021,2022-01-26,Virginia Tech,Miami,H,75,78,-3
 2021,2022-01-29,Virginia Tech,Florida State,A,85,72,13
 2021,2022-02-02,Virginia Tech,Georgia Tech,H,81,66,15
-2021,2022-02-05,Virginia Tech,Pitt,A,76,71,5
-2021,2022-02-07,Virginia Tech,Pitt,H,74,47,27
-2021,2022-02-12,Virginia Tech,Syracuse,H,71,59,12
-2021,2022-02-14,Virginia Tech,UVA,H,62,53,9
-2021,2022-02-19,Virginia Tech,UNC,H,57,65,-8
 2021,2022-02-23,Virginia Tech,Georgia Tech,A,62,58,4
 2021,2022-02-26,Virginia Tech,Miami,A,71,70,1
 2021,2022-03-01,Virginia Tech,Louisville,H,75,43,32
-2021,2022-03-05,Virginia Tech,Clemson,A,59,63,-4
-2021,2022-03-09,Virginia Tech,Clemson,N,76,75,1
-2021,2022-03-11,Virginia Tech,UNC,N,72,59,13
-2021,2022-03-12,Virginia Tech,Duke,N,82,67,15
-2022,2022-12-04,Virginia Tech,UNC,H,80,72,8
 2022,2022-12-21,Virginia Tech,Boston College,A,65,70,-5
 2022,2022-12-31,Virginia Tech,Wake Forest,A,75,77,-2
-2022,2023-01-04,Virginia Tech,Clemson,H,65,68,-3
 2022,2023-01-07,Virginia Tech,NC State,H,69,73,-4
-2022,2023-01-11,Virginia Tech,Syracuse,A,72,82,-10
-2022,2023-01-18,Virginia Tech,UVA,A,68,78,-10
-2022,2023-01-21,Virginia Tech,Clemson,A,50,51,-1
-2022,2023-01-23,Virginia Tech,Duke,H,78,75,3
-2022,2023-01-28,Virginia Tech,Syracuse,H,85,70,15
 2022,2023-01-31,Virginia Tech,Miami,A,83,92,-9
-2022,2023-02-04,Virginia Tech,UVA,H,74,68,6
 2022,2023-02-08,Virginia Tech,Boston College,H,76,82,-6
 2022,2023-02-15,Virginia Tech,Georgia Tech,A,70,77,-7
-2022,2023-02-18,Virginia Tech,Pitt,H,79,72,7
 2022,2023-02-21,Virginia Tech,Miami,H,70,76,-6
-2022,2023-02-25,Virginia Tech,Duke,A,65,81,-16
 2022,2023-02-28,Virginia Tech,Louisville,A,71,54,17
 2022,2023-03-04,Virginia Tech,Florida State,H,82,60,22
 2022,2023-03-08,Virginia Tech,NC State,N,77,97,-20
 2023,2023-12-03,Virginia Tech,Louisville,H,75,68,7
 2023,2023-12-30,Virginia Tech,Wake Forest,A,63,86,-23
 2023,2024-01-06,Virginia Tech,Florida State,A,74,77,-3
-2023,2024-01-10,Virginia Tech,Clemson,H,87,72,15
 2023,2024-01-13,Virginia Tech,Miami,H,71,75,-4
-2023,2024-01-17,Virginia Tech,UVA,A,57,65,-8
 2023,2024-01-20,Virginia Tech,NC State,A,84,78,6
 2023,2024-01-23,Virginia Tech,Boston College,H,76,71,5
 2023,2024-01-27,Virginia Tech,Georgia Tech,H,91,67,24
-2023,2024-01-29,Virginia Tech,Duke,H,67,77,-10
 2023,2024-02-03,Virginia Tech,Miami,A,74,82,-8
 2023,2024-02-13,Virginia Tech,Florida State,H,83,75,8
-2023,2024-02-17,Virginia Tech,UNC,A,81,96,-15
-2023,2024-02-19,Virginia Tech,UVA,H,75,41,34
-2023,2024-02-24,Virginia Tech,Pitt,A,64,79,-15
-2023,2024-02-27,Virginia Tech,Syracuse,A,71,84,-13
 2023,2024-03-02,Virginia Tech,Wake Forest,H,87,76,11
 2023,2024-03-05,Virginia Tech,Louisville,A,80,64,16
 2023,2024-03-13,Virginia Tech,Florida State,N,76,86,-10
-2024,2024-12-07,Virginia Tech,Pitt,H,59,64,-5
-2024,2024-12-31,Virginia Tech,Duke,A,65,88,-23
 2024,2025-01-04,Virginia Tech,Miami,H,86,85,1
 2024,2025-01-08,Virginia Tech,Stanford,A,59,70,-11
 2024,2025-01-15,Virginia Tech,NC State,H,79,76,3
 2024,2025-01-18,Virginia Tech,Wake Forest,H,63,72,-9
 2024,2025-01-22,Virginia Tech,Georgia Tech,A,64,71,-7
-2024,2025-01-25,Virginia Tech,Clemson,H,57,72,-15
 2024,2025-01-29,Virginia Tech,Florida State,A,76,66,10
-2024,2025-02-01,Virginia Tech,UVA,A,75,74,1
 2024,2025-02-05,Virginia Tech,SMU,H,75,81,-6
-2024,2025-02-15,Virginia Tech,UVA,H,70,73,-3
 2024,2025-02-18,Virginia Tech,Boston College,A,36,54,-18
 2024,2025-02-22,Virginia Tech,Miami,A,81,68,13
 2024,2025-02-25,Virginia Tech,Louisville,H,66,71,-5
-2024,2025-03-01,Virginia Tech,Syracuse,H,101,95,6
-2024,2025-03-04,Virginia Tech,UNC,H,59,91,-32
-2024,2025-03-08,Virginia Tech,Clemson,A,47,65,-18
-2025,2025-12-31,Virginia Tech,UVA,H,95,85,10
 2025,2026-01-03,Virginia Tech,Wake Forest,A,78,81,-3
 2025,2026-01-07,Virginia Tech,Stanford,H,68,69,-1
 2025,2026-01-14,Virginia Tech,SMU,A,76,77,-1
-2025,2026-01-21,Virginia Tech,Syracuse,A,76,74,2
 2025,2026-01-24,Virginia Tech,Louisville,A,71,85,-14
 2025,2026-01-27,Virginia Tech,Georgia Tech,H,71,65,6
-2025,2026-01-31,Virginia Tech,Duke,H,58,72,-14
 2020,2020-12-15,Florida State,Georgia Tech,H,74,61,13
-2020,2020-12-29,Florida State,Clemson,A,67,77,-10
 2020,2021-01-13,Florida State,NC State,H,105,73,32
-2020,2021-01-16,Florida State,UNC,H,82,75,7
 2020,2021-01-18,Florida State,Louisville,A,78,65,13
-2020,2021-01-23,Florida State,Clemson,H,80,61,19
 2020,2021-01-27,Florida State,Miami,H,81,59,22
 2020,2021-01-30,Florida State,Georgia Tech,A,65,76,-11
 2020,2021-02-13,Florida State,Wake Forest,H,92,85,7
-2020,2021-02-15,Florida State,UVA,H,81,60,21
-2020,2021-02-20,Florida State,Pitt,A,79,72,7
 2020,2021-02-24,Florida State,Miami,A,88,71,17
-2020,2021-02-27,Florida State,UNC,A,70,78,-8
 2020,2021-03-03,Florida State,Boston College,H,93,64,29
 2020,2021-03-11,Florida State,Duke,N,69,66,3
-2020,2021-03-12,Florida State,UNC,N,80,75,5
 2020,2021-03-13,Florida State,Georgia Tech,N,54,64,-10
-2021,2021-12-04,Florida State,Syracuse,H,60,63,-3
 2021,2022-01-01,Florida State,NC State,A,83,81,2
 2021,2022-01-04,Florida State,Wake Forest,A,54,76,-22
 2021,2022-01-08,Florida State,Louisville,H,79,70,9
 2021,2022-01-11,Florida State,Miami,H,65,64,1
-2021,2022-01-15,Florida State,Syracuse,A,76,71,5
-2021,2022-01-18,Florida State,Duke,H,79,78,1
 2021,2022-01-22,Florida State,Miami,A,61,60,1
 2021,2022-01-26,Florida State,Georgia Tech,A,61,75,-14
-2021,2022-01-29,Florida State,Virginia Tech,H,72,85,-13
-2021,2022-02-02,Florida State,Clemson,A,69,75,-6
 2021,2022-02-05,Florida State,Wake Forest,H,60,68,-8
-2021,2022-02-09,Florida State,Pitt,H,51,56,-5
-2021,2022-02-12,Florida State,UNC,A,74,94,-20
-2021,2022-02-15,Florida State,Clemson,H,81,80,1
-2021,2022-02-19,Florida State,Duke,A,70,88,-18
 2021,2022-02-21,Florida State,Boston College,A,55,71,-16
-2021,2022-02-26,Florida State,UVA,A,64,63,1
 2021,2022-03-05,Florida State,NC State,H,89,76,13
-2021,2022-03-09,Florida State,Syracuse,N,57,96,-39
 2022,2022-11-25,Florida State,Stanford,N,60,70,-10
-2022,2022-12-03,Florida State,UVA,A,57,62,-5
 2022,2022-12-10,Florida State,Louisville,H,75,53,22
-2022,2022-12-31,Florida State,Duke,A,67,86,-19
 2022,2023-01-07,Florida State,Georgia Tech,H,75,64,11
 2022,2023-01-11,Florida State,Wake Forest,A,75,90,-15
-2022,2023-01-14,Florida State,UVA,H,58,67,-9
-2022,2023-01-21,Florida State,Pitt,A,71,64,7
 2022,2023-01-24,Florida State,Miami,H,63,86,-23
-2022,2023-01-28,Florida State,Clemson,H,81,82,-1
 2022,2023-02-01,Florida State,NC State,A,66,94,-28
 2022,2023-02-04,Florida State,Louisville,A,81,78,3
-2022,2023-02-08,Florida State,Syracuse,H,67,76,-9
-2022,2023-02-11,Florida State,Pitt,H,75,83,-8
-2022,2023-02-15,Florida State,Clemson,A,54,94,-40
 2022,2023-02-18,Florida State,Boston College,H,69,75,-6
 2022,2023-02-25,Florida State,Miami,A,85,84,1
-2022,2023-02-27,Florida State,UNC,H,66,77,-11
-2022,2023-03-04,Florida State,Virginia Tech,A,60,82,-22
 2022,2023-03-07,Florida State,Georgia Tech,N,60,61,-1
-2023,2023-12-02,Florida State,UNC,A,70,78,-8
 2023,2023-12-16,Florida State,SMU,H,57,68,-11
 2023,2024-01-03,Florida State,Georgia Tech,H,82,71,11
-2023,2024-01-06,Florida State,Virginia Tech,H,77,74,3
 2023,2024-01-09,Florida State,Wake Forest,H,87,82,5
 2023,2024-01-17,Florida State,Miami,A,84,75,9
-2023,2024-01-20,Florida State,Clemson,H,67,78,-11
-2023,2024-01-23,Florida State,Syracuse,A,85,69,16
-2023,2024-01-27,Florida State,UNC,H,68,75,-7
 2023,2024-02-03,Florida State,Louisville,A,92,101,-9
 2023,2024-02-06,Florida State,Boston College,A,63,62,1
-2023,2024-02-10,Florida State,UVA,H,76,80,-4
-2023,2024-02-13,Florida State,Virginia Tech,A,75,83,-8
-2023,2024-02-17,Florida State,Duke,H,67,76,-9
 2023,2024-02-20,Florida State,Boston College,H,84,76,8
-2023,2024-02-24,Florida State,Clemson,A,63,74,-11
 2023,2024-02-27,Florida State,NC State,H,90,83,7
 2023,2024-03-02,Florida State,Georgia Tech,A,76,85,-9
-2023,2024-03-05,Florida State,Pitt,A,73,88,-15
 2023,2024-03-09,Florida State,Miami,H,83,75,8
-2023,2024-03-13,Florida State,Virginia Tech,N,86,76,10
-2023,2024-03-14,Florida State,UNC,N,67,92,-25
 2024,2024-12-07,Florida State,NC State,A,74,84,-10
 2024,2024-12-21,Florida State,Louisville,H,76,90,-14
-2024,2025-01-04,Florida State,Syracuse,H,90,74,16
 2024,2025-01-08,Florida State,Miami,A,80,65,15
-2024,2025-01-11,Florida State,Clemson,A,57,77,-20
-2024,2025-01-15,Florida State,Pitt,H,82,70,12
 2024,2025-01-18,Florida State,Georgia Tech,H,91,78,13
 2024,2025-01-25,Florida State,Stanford,A,71,78,-7
-2024,2025-01-29,Florida State,Virginia Tech,H,66,76,-10
 2024,2025-02-01,Florida State,Boston College,A,76,77,-1
 2024,2025-02-12,Florida State,Wake Forest,A,72,70,2
-2024,2025-02-15,Florida State,Clemson,H,46,72,-26
 2024,2025-02-19,Florida State,Miami,H,74,66,8
 2024,2025-02-22,Florida State,Louisville,A,81,89,-8
-2024,2025-02-24,Florida State,UNC,H,85,96,-11
-2024,2025-03-01,Florida State,Duke,A,65,100,-35
-2024,2025-03-04,Florida State,UVA,A,57,60,-3
 2024,2025-03-08,Florida State,SMU,H,76,69,7
-2024,2025-03-11,Florida State,Syracuse,N,62,66,-4
-2025,2025-12-30,Florida State,UNC,A,66,79,-13
-2025,2026-01-03,Florida State,Duke,H,87,91,-4
 2025,2026-01-10,Florida State,NC State,H,69,113,-44
-2025,2026-01-13,Florida State,Syracuse,A,86,94,-8
 2025,2026-01-17,Florida State,Wake Forest,H,68,69,-1
 2025,2026-01-20,Florida State,Miami,A,65,63,2
 2025,2026-01-24,Florida State,SMU,A,80,83,-3
 2025,2026-01-31,Florida State,Stanford,H,88,80,8
-2020,2020-12-22,NC State,UNC,H,79,76,3
 2020,2020-12-30,NC State,Boston College,H,79,76,3
-2020,2021-01-05,NC State,Clemson,A,70,74,-4
 2020,2021-01-09,NC State,Miami,H,59,64,-5
-2020,2021-01-13,NC State,Florida State,A,73,105,-32
-2020,2021-01-23,NC State,UNC,A,76,86,-10
 2020,2021-01-27,NC State,Wake Forest,H,72,67,5
-2020,2021-01-31,NC State,Syracuse,A,73,76,-3
-2020,2021-02-03,NC State,UVA,H,57,64,-7
 2020,2021-02-06,NC State,Boston College,A,81,65,16
-2020,2021-02-09,NC State,Syracuse,H,68,77,-9
-2020,2021-02-13,NC State,Duke,H,53,69,-16
-2020,2021-02-17,NC State,Pitt,A,74,73,1
 2020,2021-02-20,NC State,Wake Forest,A,80,62,18
-2020,2021-02-24,NC State,UVA,A,68,61,7
-2020,2021-02-28,NC State,Pitt,H,65,62,3
-2020,2021-03-10,NC State,Syracuse,N,68,89,-21
 2021,2021-12-04,NC State,Louisville,H,68,73,-5
 2021,2021-12-29,NC State,Miami,A,83,91,-8
-2021,2022-01-01,NC State,Florida State,H,81,83,-2
-2021,2022-01-04,NC State,Virginia Tech,A,68,63,5
-2021,2022-01-08,NC State,Clemson,H,65,70,-5
 2021,2022-01-12,NC State,Louisville,A,79,63,16
-2021,2022-01-15,NC State,Duke,A,73,88,-15
-2021,2022-01-19,NC State,Virginia Tech,H,59,62,-3
-2021,2022-01-22,NC State,UVA,H,77,63,14
-2021,2022-01-29,NC State,UNC,A,80,100,-20
-2021,2022-02-02,NC State,Syracuse,H,82,89,-7
 2021,2022-02-09,NC State,Wake Forest,H,51,69,-18
-2021,2022-02-12,NC State,Pitt,A,69,71,-2
 2021,2022-02-15,NC State,Georgia Tech,A,76,61,15
 2021,2022-02-23,NC State,Boston College,H,61,69,-8
-2021,2022-02-26,NC State,UNC,H,74,84,-10
 2021,2022-03-02,NC State,Wake Forest,A,76,101,-25
-2021,2022-03-05,NC State,Florida State,A,76,89,-13
-2021,2022-03-08,NC State,Clemson,N,64,70,-6
-2022,2022-12-02,NC State,Pitt,H,60,68,-8
 2022,2022-12-10,NC State,Miami,A,73,80,-7
 2022,2022-12-22,NC State,Louisville,H,76,64,12
-2022,2022-12-30,NC State,Clemson,A,64,78,-14
-2022,2023-01-04,NC State,Duke,H,84,60,24
-2022,2023-01-07,NC State,Virginia Tech,A,73,69,4
 2022,2023-01-14,NC State,Miami,H,83,81,2
 2022,2023-01-17,NC State,Georgia Tech,A,78,66,12
-2022,2023-01-21,NC State,UNC,A,69,80,-11
 2022,2023-01-28,NC State,Wake Forest,A,79,77,2
-2022,2023-02-01,NC State,Florida State,H,94,66,28
 2022,2023-02-04,NC State,Georgia Tech,H,72,64,8
-2022,2023-02-07,NC State,UVA,A,50,63,-13
 2022,2023-02-11,NC State,Boston College,A,92,62,30
-2022,2023-02-14,NC State,Syracuse,A,72,75,-3
-2022,2023-02-19,NC State,UNC,H,77,69,8
 2022,2023-02-22,NC State,Wake Forest,H,90,74,16
-2022,2023-02-25,NC State,Clemson,H,71,96,-25
-2022,2023-02-28,NC State,Duke,A,67,71,-4
-2022,2023-03-08,NC State,Virginia Tech,N,97,77,20
-2022,2023-03-09,NC State,Clemson,N,54,80,-26
 2023,2023-12-02,NC State,Boston College,A,84,78,6
-2023,2024-01-06,NC State,UVA,H,76,60,16
-2023,2024-01-10,NC State,UNC,H,54,67,-13
 2023,2024-01-13,NC State,Louisville,A,89,83,6
 2023,2024-01-16,NC State,Wake Forest,H,83,76,7
-2023,2024-01-20,NC State,Virginia Tech,H,78,84,-6
-2023,2024-01-24,NC State,UVA,A,53,59,-6
-2023,2024-01-27,NC State,Syracuse,A,65,77,-12
 2023,2024-01-30,NC State,Miami,H,74,68,6
 2023,2024-02-03,NC State,Georgia Tech,H,82,76,6
-2023,2024-02-07,NC State,Pitt,H,64,67,-3
 2023,2024-02-10,NC State,Wake Forest,A,79,83,-4
-2023,2024-02-17,NC State,Clemson,A,78,77,1
-2023,2024-02-20,NC State,Syracuse,H,83,87,-4
 2023,2024-02-24,NC State,Boston College,H,81,70,11
-2023,2024-02-27,NC State,Florida State,A,83,90,-7
-2023,2024-03-02,NC State,UNC,A,70,79,-9
-2023,2024-03-04,NC State,Duke,H,64,79,-15
-2023,2024-03-09,NC State,Pitt,A,73,81,-8
 2023,2024-03-12,NC State,Louisville,N,94,85,9
-2023,2024-03-13,NC State,Syracuse,N,83,65,18
-2023,2024-03-14,NC State,Duke,N,74,69,5
-2023,2024-03-15,NC State,UVA,N,73,65,8
-2023,2024-03-16,NC State,UNC,N,84,76,8
-2023,2024-03-31,NC State,Duke,N,76,64,12
-2024,2024-12-07,NC State,Florida State,H,84,74,10
-2024,2024-12-31,NC State,UVA,A,67,70,-3
 2024,2025-01-04,NC State,Wake Forest,A,59,77,-18
-2024,2025-01-11,NC State,UNC,H,61,63,-2
-2024,2025-01-15,NC State,Virginia Tech,A,76,79,-3
 2024,2025-01-25,NC State,SMU,H,57,63,-6
-2024,2025-01-27,NC State,Duke,A,64,74,-10
-2024,2025-02-01,NC State,Clemson,H,58,68,-10
 2024,2025-02-08,NC State,Stanford,A,73,74,-1
 2024,2025-02-12,NC State,Louisville,H,66,91,-25
 2024,2025-02-15,NC State,Boston College,H,70,62,8
-2024,2025-02-19,NC State,UNC,A,73,97,-24
 2024,2025-02-22,NC State,Wake Forest,H,85,73,12
-2024,2025-02-26,NC State,Syracuse,A,60,74,-14
 2024,2025-03-01,NC State,Georgia Tech,A,62,87,-25
-2024,2025-03-05,NC State,Pitt,H,71,63,8
 2024,2025-03-08,NC State,Miami,A,70,72,-2
 2025,2025-12-31,NC State,Wake Forest,H,70,57,13
-2025,2026-01-03,NC State,UVA,H,61,76,-15
 2025,2026-01-06,NC State,Boston College,A,79,71,8
-2025,2026-01-10,NC State,Florida State,A,113,69,44
 2025,2026-01-17,NC State,Georgia Tech,H,74,78,-4
-2025,2026-01-20,NC State,Clemson,A,80,76,4
-2025,2026-01-24,NC State,Pitt,A,81,72,9
-2025,2026-01-27,NC State,Syracuse,H,88,68,20
 2025,2026-01-31,NC State,Wake Forest,A,96,78,18
 2025,2026-02-03,NC State,SMU,A,84,83,1
 2020,2021-01-03,Wake Forest,Georgia Tech,A,54,70,-16
-2020,2021-01-06,Wake Forest,UVA,A,61,70,-9
-2020,2021-01-09,Wake Forest,Duke,A,68,79,-11
 2020,2021-01-13,Wake Forest,Louisville,H,65,77,-12
-2020,2021-01-17,Wake Forest,Virginia Tech,H,60,64,-4
-2020,2021-01-20,Wake Forest,UNC,A,73,80,-7
-2020,2021-01-23,Wake Forest,Pitt,H,76,75,1
-2020,2021-01-27,Wake Forest,NC State,A,67,72,-5
 2020,2021-01-30,Wake Forest,Miami,H,66,54,12
 2020,2021-02-10,Wake Forest,Boston College,A,69,65,4
-2020,2021-02-13,Wake Forest,Florida State,A,85,92,-7
-2020,2021-02-17,Wake Forest,Duke,H,60,84,-24
-2020,2021-02-20,Wake Forest,NC State,H,62,80,-18
-2020,2021-02-24,Wake Forest,Clemson,H,39,60,-21
-2020,2021-02-27,Wake Forest,Virginia Tech,A,46,84,-38
-2020,2021-03-02,Wake Forest,Pitt,A,57,70,-13
 2020,2021-03-05,Wake Forest,Georgia Tech,H,63,75,-12
-2021,2021-12-04,Wake Forest,Virginia Tech,A,80,61,19
 2021,2021-12-29,Wake Forest,Louisville,A,69,73,-4
 2021,2022-01-01,Wake Forest,Miami,A,84,92,-8
-2021,2022-01-04,Wake Forest,Florida State,H,76,54,22
-2021,2022-01-08,Wake Forest,Syracuse,H,77,74,3
-2021,2022-01-12,Wake Forest,Duke,H,64,76,-12
-2021,2022-01-15,Wake Forest,UVA,A,63,55,8
 2021,2022-01-19,Wake Forest,Georgia Tech,A,80,64,16
-2021,2022-01-22,Wake Forest,UNC,H,98,76,22
 2021,2022-01-24,Wake Forest,Boston College,H,87,57,30
-2021,2022-01-29,Wake Forest,Syracuse,A,72,94,-22
-2021,2022-02-02,Wake Forest,Pitt,H,91,75,16
-2021,2022-02-05,Wake Forest,Florida State,A,68,60,8
-2021,2022-02-09,Wake Forest,NC State,A,69,51,18
 2021,2022-02-12,Wake Forest,Miami,H,72,76,-4
-2021,2022-02-15,Wake Forest,Duke,A,74,76,-2
-2021,2022-02-23,Wake Forest,Clemson,A,69,80,-11
 2021,2022-02-26,Wake Forest,Louisville,H,99,77,22
-2021,2022-03-02,Wake Forest,NC State,H,101,76,25
 2021,2022-03-09,Wake Forest,Boston College,N,77,82,-5
-2022,2022-12-02,Wake Forest,Clemson,A,57,77,-20
-2022,2022-12-20,Wake Forest,Duke,H,81,70,11
-2022,2022-12-31,Wake Forest,Virginia Tech,H,77,75,2
-2022,2023-01-04,Wake Forest,UNC,A,79,88,-9
 2022,2023-01-07,Wake Forest,Louisville,A,80,72,8
-2022,2023-01-11,Wake Forest,Florida State,H,90,75,15
 2022,2023-01-14,Wake Forest,Boston College,A,85,63,22
-2022,2023-01-17,Wake Forest,Clemson,H,87,77,10
-2022,2023-01-21,Wake Forest,UVA,H,67,76,-9
-2022,2023-01-25,Wake Forest,Pitt,A,79,81,-2
-2022,2023-01-28,Wake Forest,NC State,H,77,79,-2
-2022,2023-01-31,Wake Forest,Duke,A,73,75,-2
-2022,2023-02-07,Wake Forest,UNC,H,92,85,7
 2022,2023-02-11,Wake Forest,Georgia Tech,H,71,70,1
 2022,2023-02-18,Wake Forest,Miami,A,87,96,-9
-2022,2023-02-22,Wake Forest,NC State,A,74,90,-16
 2022,2023-02-28,Wake Forest,Boston College,H,69,71,-2
-2022,2023-03-04,Wake Forest,Syracuse,A,63,72,-9
-2022,2023-03-08,Wake Forest,Syracuse,N,77,74,3
 2022,2023-03-09,Wake Forest,Miami,N,72,74,-2
-2023,2023-12-30,Wake Forest,Virginia Tech,H,86,63,23
 2023,2024-01-02,Wake Forest,Boston College,A,84,78,6
 2023,2024-01-06,Wake Forest,Miami,H,86,82,4
-2023,2024-01-09,Wake Forest,Florida State,A,82,87,-5
-2023,2024-01-13,Wake Forest,UVA,H,66,47,19
-2023,2024-01-16,Wake Forest,NC State,A,76,83,-7
 2023,2024-01-20,Wake Forest,Louisville,H,90,65,25
-2023,2024-01-22,Wake Forest,UNC,A,64,85,-21
-2023,2024-01-31,Wake Forest,Pitt,A,72,77,-5
-2023,2024-02-03,Wake Forest,Syracuse,H,99,70,29
 2023,2024-02-06,Wake Forest,Georgia Tech,A,80,51,29
-2023,2024-02-10,Wake Forest,NC State,H,83,79,4
-2023,2024-02-12,Wake Forest,Duke,A,69,77,-8
-2023,2024-02-17,Wake Forest,UVA,A,47,49,-2
-2023,2024-02-20,Wake Forest,Pitt,H,91,58,33
-2023,2024-02-24,Wake Forest,Duke,H,83,79,4
-2023,2024-03-02,Wake Forest,Virginia Tech,A,76,87,-11
 2023,2024-03-05,Wake Forest,Georgia Tech,H,69,70,-1
-2023,2024-03-09,Wake Forest,Clemson,H,81,76,5
-2023,2024-03-14,Wake Forest,Pitt,N,69,81,-12
 2024,2024-12-07,Wake Forest,Boston College,H,72,66,6
-2024,2024-12-21,Wake Forest,Clemson,A,62,73,-11
-2024,2024-12-31,Wake Forest,Syracuse,A,81,71,10
-2024,2025-01-04,Wake Forest,NC State,H,77,59,18
 2024,2025-01-11,Wake Forest,Miami,A,88,78,10
 2024,2025-01-15,Wake Forest,Stanford,H,80,67,13
-2024,2025-01-18,Wake Forest,Virginia Tech,A,72,63,9
-2024,2025-01-21,Wake Forest,UNC,H,67,66,1
-2024,2025-01-25,Wake Forest,Duke,H,56,63,-7
 2024,2025-01-28,Wake Forest,Louisville,A,59,72,-13
-2024,2025-02-01,Wake Forest,Pitt,H,76,74,2
 2024,2025-02-05,Wake Forest,Stanford,A,79,73,6
-2024,2025-02-12,Wake Forest,Florida State,H,70,72,-2
 2024,2025-02-15,Wake Forest,SMU,A,77,66,11
-2024,2025-02-22,Wake Forest,NC State,A,73,85,-12
-2024,2025-02-26,Wake Forest,UVA,H,75,83,-8
-2024,2025-03-03,Wake Forest,Duke,A,60,93,-33
 2024,2025-03-08,Wake Forest,Georgia Tech,H,69,43,26
-2024,2025-03-13,Wake Forest,UNC,N,59,68,-9
-2025,2025-12-31,Wake Forest,NC State,A,57,70,-13
-2025,2026-01-03,Wake Forest,Virginia Tech,H,81,78,3
 2025,2026-01-07,Wake Forest,Miami,H,77,81,-4
-2025,2026-01-10,Wake Forest,UNC,A,84,87,-3
-2025,2026-01-17,Wake Forest,Florida State,A,69,68,1
 2025,2026-01-20,Wake Forest,SMU,H,79,91,-12
-2025,2026-01-24,Wake Forest,Duke,A,69,90,-21
-2025,2026-01-27,Wake Forest,Pitt,A,76,80,-4
-2025,2026-01-31,Wake Forest,NC State,H,78,96,-18
-2020,2020-12-12,Boston College,Syracuse,H,63,101,-38
-2020,2020-12-30,Boston College,NC State,A,76,79,-3
 2020,2021-01-02,Boston College,Louisville,H,64,76,-12
-2020,2021-01-06,Boston College,Duke,A,82,83,-1
-2020,2021-01-09,Boston College,UVA,H,49,61,-12
 2020,2021-01-12,Boston College,Miami,H,84,62,22
-2020,2021-02-06,Boston College,NC State,H,65,81,-16
-2020,2021-02-10,Boston College,Wake Forest,H,65,69,-4
-2020,2021-02-13,Boston College,Syracuse,A,67,75,-8
-2020,2021-03-03,Boston College,Florida State,A,64,93,-29
 2020,2021-03-05,Boston College,Miami,A,76,80,-4
-2020,2021-03-09,Boston College,Duke,N,51,86,-35
-2021,2022-01-02,Boston College,UNC,H,65,91,-26
-2021,2022-01-08,Boston College,Pitt,A,67,69,-2
 2021,2022-01-12,Boston College,Georgia Tech,H,76,81,-5
-2021,2022-01-15,Boston College,Clemson,A,70,68,2
 2021,2022-01-19,Boston College,Louisville,A,54,67,-13
-2021,2022-01-22,Boston College,Virginia Tech,H,68,63,5
-2021,2022-01-24,Boston College,Wake Forest,A,57,87,-30
-2021,2022-01-26,Boston College,UNC,A,47,58,-11
-2021,2022-01-30,Boston College,Pitt,H,69,56,13
-2021,2022-02-01,Boston College,UVA,A,55,67,-12
-2021,2022-02-08,Boston College,Syracuse,H,64,73,-9
-2021,2022-02-12,Boston College,Duke,H,61,72,-11
-2021,2022-02-19,Boston College,Syracuse,A,56,76,-20
-2021,2022-02-21,Boston College,Florida State,H,71,55,16
-2021,2022-02-23,Boston College,NC State,A,69,61,8
-2021,2022-02-26,Boston College,Clemson,H,60,70,-10
 2021,2022-03-02,Boston College,Miami,H,70,81,-11
 2021,2022-03-05,Boston College,Georgia Tech,A,78,82,-4
-2021,2022-03-08,Boston College,Pitt,N,66,46,20
-2021,2022-03-09,Boston College,Wake Forest,N,82,77,5
 2021,2022-03-10,Boston College,Miami,N,69,71,-2
-2022,2022-12-03,Boston College,Duke,A,59,75,-16
-2022,2022-12-21,Boston College,Virginia Tech,H,70,65,5
-2022,2022-12-31,Boston College,Syracuse,A,65,79,-14
-2022,2023-01-07,Boston College,Duke,H,64,65,-1
 2022,2023-01-11,Boston College,Miami,A,72,88,-16
-2022,2023-01-14,Boston College,Wake Forest,H,63,85,-22
-2022,2023-01-17,Boston College,UNC,A,64,72,-8
 2022,2023-01-25,Boston College,Louisville,H,75,65,10
-2022,2023-01-28,Boston College,UVA,A,57,76,-19
-2022,2023-01-31,Boston College,Clemson,H,62,54,8
-2022,2023-02-04,Boston College,Syracuse,H,68,77,-9
-2022,2023-02-08,Boston College,Virginia Tech,A,82,76,6
-2022,2023-02-11,Boston College,NC State,H,62,92,-30
-2022,2023-02-14,Boston College,Pitt,A,58,77,-19
-2022,2023-02-18,Boston College,Florida State,A,75,69,6
-2022,2023-02-22,Boston College,UVA,H,63,48,15
-2022,2023-02-28,Boston College,Wake Forest,A,71,69,2
 2022,2023-03-04,Boston College,Georgia Tech,H,65,73,-8
 2022,2023-03-07,Boston College,Louisville,N,80,62,18
-2022,2023-03-08,Boston College,UNC,N,61,85,-24
-2023,2023-12-02,Boston College,NC State,H,78,84,-6
-2023,2024-01-02,Boston College,Wake Forest,H,78,84,-6
 2023,2024-01-06,Boston College,Georgia Tech,A,95,87,8
-2023,2024-01-10,Boston College,Syracuse,A,59,69,-10
-2023,2024-01-13,Boston College,Clemson,A,78,89,-11
-2023,2024-01-20,Boston College,UNC,H,66,76,-10
-2023,2024-01-23,Boston College,Virginia Tech,A,71,76,-5
-2023,2024-01-30,Boston College,Syracuse,H,80,75,5
-2023,2024-02-06,Boston College,Florida State,H,62,63,-1
-2023,2024-02-10,Boston College,Duke,A,65,80,-15
 2023,2024-02-13,Boston College,Louisville,H,89,77,12
 2023,2024-02-17,Boston College,Miami,H,85,77,8
-2023,2024-02-20,Boston College,Florida State,A,76,84,-8
-2023,2024-02-24,Boston College,NC State,A,70,81,-11
-2023,2024-02-28,Boston College,UVA,H,68,72,-4
-2023,2024-03-02,Boston College,Pitt,H,65,90,-25
 2023,2024-03-06,Boston College,Miami,A,67,57,10
 2023,2024-03-09,Boston College,Louisville,A,67,61,6
 2023,2024-03-12,Boston College,Miami,N,81,65,16
-2023,2024-03-13,Boston College,Clemson,N,76,55,21
-2023,2024-03-14,Boston College,UVA,N,60,66,-6
-2024,2024-12-07,Boston College,Wake Forest,A,66,72,-6
 2024,2024-12-21,Boston College,SMU,H,77,103,-26
 2024,2025-01-01,Boston College,Miami,H,78,68,10
 2024,2025-01-04,Boston College,Georgia Tech,A,64,85,-21
-2024,2025-01-11,Boston College,Syracuse,H,71,79,-8
-2024,2025-01-18,Boston College,Duke,H,63,88,-25
-2024,2025-01-21,Boston College,UVA,A,56,74,-18
-2024,2025-01-25,Boston College,UNC,A,96,102,-6
-2024,2025-02-01,Boston College,Florida State,H,77,76,1
 2024,2025-02-05,Boston College,Louisville,H,58,84,-26
-2024,2025-02-08,Boston College,Syracuse,A,86,95,-9
-2024,2025-02-15,Boston College,NC State,A,62,70,-8
-2024,2025-02-18,Boston College,Virginia Tech,H,54,36,18
 2024,2025-02-22,Boston College,Georgia Tech,H,69,54,15
 2024,2025-02-26,Boston College,Stanford,A,60,78,-18
-2024,2025-03-05,Boston College,Clemson,H,69,78,-9
-2024,2025-03-08,Boston College,Pitt,A,67,93,-26
 2025,2026-01-03,Boston College,Georgia Tech,A,53,65,-12
-2025,2026-01-06,Boston College,NC State,H,71,79,-8
 2025,2026-01-10,Boston College,Louisville,A,62,75,-13
-2025,2026-01-13,Boston College,Clemson,A,50,74,-24
-2025,2026-01-17,Boston College,Syracuse,H,81,73,8
-2025,2026-01-21,Boston College,Pitt,H,65,62,3
-2025,2026-01-31,Boston College,UVA,H,66,73,-7
-2025,2026-02-03,Boston College,Duke,A,49,67,-18
-2020,2020-12-15,Georgia Tech,Florida State,A,61,74,-13
-2020,2020-12-30,Georgia Tech,UNC,H,72,67,5
-2020,2021-01-03,Georgia Tech,Wake Forest,H,70,54,16
-2020,2021-01-20,Georgia Tech,Clemson,H,83,65,18
-2020,2021-01-23,Georgia Tech,UVA,A,62,64,-2
-2020,2021-01-26,Georgia Tech,Duke,A,68,75,-7
-2020,2021-01-30,Georgia Tech,Florida State,H,76,65,11
 2020,2021-02-01,Georgia Tech,Louisville,A,58,74,-16
-2020,2021-02-10,Georgia Tech,UVA,H,49,57,-8
-2020,2021-02-12,Georgia Tech,Clemson,A,72,74,-2
-2020,2021-02-14,Georgia Tech,Pitt,H,71,65,6
 2020,2021-02-20,Georgia Tech,Miami,A,87,60,27
-2020,2021-02-23,Georgia Tech,Virginia Tech,A,69,53,16
-2020,2021-02-27,Georgia Tech,Syracuse,H,84,77,7
-2020,2021-03-02,Georgia Tech,Duke,H,81,77,4
-2020,2021-03-05,Georgia Tech,Wake Forest,A,75,63,12
 2020,2021-03-11,Georgia Tech,Miami,N,70,66,4
-2020,2021-03-12,Georgia Tech,UVA,N,80,75,5
-2020,2021-03-13,Georgia Tech,Florida State,N,71,60,11
-2021,2021-12-05,Georgia Tech,UNC,H,62,79,-17
 2021,2022-01-02,Georgia Tech,Louisville,H,64,67,-3
-2021,2022-01-04,Georgia Tech,Duke,A,57,69,-12
-2021,2022-01-12,Georgia Tech,Boston College,A,81,76,5
-2021,2022-01-15,Georgia Tech,UNC,A,65,88,-23
-2021,2022-01-19,Georgia Tech,Wake Forest,H,64,80,-16
-2021,2022-01-26,Georgia Tech,Florida State,H,75,61,14
 2021,2022-01-29,Georgia Tech,Miami,H,62,73,-11
-2021,2022-02-02,Georgia Tech,Virginia Tech,A,66,81,-15
-2021,2022-02-05,Georgia Tech,Clemson,H,69,64,5
 2021,2022-02-09,Georgia Tech,Miami,A,70,79,-9
-2021,2022-02-12,Georgia Tech,UVA,A,53,63,-10
-2021,2022-02-15,Georgia Tech,NC State,H,61,76,-15
-2021,2022-02-19,Georgia Tech,Pitt,A,68,62,6
-2021,2022-02-21,Georgia Tech,Syracuse,A,73,74,-1
-2021,2022-02-23,Georgia Tech,Virginia Tech,H,58,62,-4
-2021,2022-03-02,Georgia Tech,Clemson,A,65,68,-3
-2021,2022-03-05,Georgia Tech,Boston College,H,82,78,4
 2021,2022-03-08,Georgia Tech,Louisville,N,74,84,-10
-2022,2022-12-10,Georgia Tech,UNC,A,59,75,-16
-2022,2022-12-21,Georgia Tech,Clemson,H,66,79,-13
-2022,2022-12-31,Georgia Tech,UVA,H,56,74,-18
 2022,2023-01-04,Georgia Tech,Miami,H,76,70,6
-2022,2023-01-07,Georgia Tech,Florida State,A,64,75,-11
-2022,2023-01-14,Georgia Tech,Pitt,H,60,71,-11
-2022,2023-01-17,Georgia Tech,NC State,H,66,78,-12
-2022,2023-01-21,Georgia Tech,Syracuse,H,63,80,-17
-2022,2023-01-24,Georgia Tech,Clemson,A,51,72,-21
-2022,2023-01-28,Georgia Tech,Duke,H,43,86,-43
 2022,2023-02-01,Georgia Tech,Louisville,A,58,68,-10
-2022,2023-02-04,Georgia Tech,NC State,A,64,72,-8
-2022,2023-02-11,Georgia Tech,Wake Forest,A,70,71,-1
-2022,2023-02-15,Georgia Tech,Virginia Tech,H,77,70,7
-2022,2023-02-21,Georgia Tech,Pitt,A,68,76,-8
 2022,2023-02-25,Georgia Tech,Louisville,H,83,67,16
-2022,2023-02-28,Georgia Tech,Syracuse,A,96,76,20
-2022,2023-03-04,Georgia Tech,Boston College,A,73,65,8
-2022,2023-03-07,Georgia Tech,Florida State,N,61,60,1
-2022,2023-03-08,Georgia Tech,Pitt,N,81,89,-8
-2023,2023-12-02,Georgia Tech,Duke,H,72,68,4
-2023,2024-01-03,Georgia Tech,Florida State,A,71,82,-11
-2023,2024-01-06,Georgia Tech,Boston College,H,87,95,-8
-2023,2024-01-13,Georgia Tech,Duke,A,79,84,-5
-2023,2024-01-16,Georgia Tech,Clemson,A,93,90,3
-2023,2024-01-20,Georgia Tech,UVA,H,66,75,-9
-2023,2024-01-23,Georgia Tech,Pitt,H,64,72,-8
-2023,2024-01-27,Georgia Tech,Virginia Tech,A,67,91,-24
-2023,2024-01-30,Georgia Tech,UNC,H,74,73,1
-2023,2024-02-03,Georgia Tech,NC State,A,76,82,-6
-2023,2024-02-06,Georgia Tech,Wake Forest,H,51,80,-29
 2023,2024-02-10,Georgia Tech,Louisville,A,67,79,-12
-2023,2024-02-17,Georgia Tech,Syracuse,H,65,60,5
-2023,2024-02-21,Georgia Tech,Clemson,H,57,81,-24
 2023,2024-02-24,Georgia Tech,Miami,A,80,76,4
-2023,2024-03-02,Georgia Tech,Florida State,H,85,76,9
-2023,2024-03-05,Georgia Tech,Wake Forest,A,70,69,1
-2023,2024-03-09,Georgia Tech,UVA,A,57,72,-15
-2024,2024-12-07,Georgia Tech,UNC,A,65,68,-3
-2024,2024-12-21,Georgia Tech,Duke,H,56,82,-26
-2024,2025-01-04,Georgia Tech,Boston College,H,85,64,21
-2024,2025-01-07,Georgia Tech,Syracuse,A,55,62,-7
 2024,2025-01-11,Georgia Tech,SMU,A,71,93,-22
-2024,2025-01-14,Georgia Tech,Clemson,H,59,70,-11
-2024,2025-01-18,Georgia Tech,Florida State,A,78,91,-13
-2024,2025-01-22,Georgia Tech,Virginia Tech,H,71,64,7
 2024,2025-02-01,Georgia Tech,Louisville,H,77,70,7
-2024,2025-02-04,Georgia Tech,Clemson,A,89,86,3
-2024,2025-02-08,Georgia Tech,UVA,A,61,75,-14
 2024,2025-02-12,Georgia Tech,Stanford,H,60,52,8
-2024,2025-02-22,Georgia Tech,Boston College,A,54,69,-15
-2024,2025-02-25,Georgia Tech,Pitt,A,73,67,6
-2024,2025-03-01,Georgia Tech,NC State,H,87,62,25
 2024,2025-03-04,Georgia Tech,Miami,H,89,74,15
-2024,2025-03-08,Georgia Tech,Wake Forest,A,43,69,-26
-2024,2025-03-12,Georgia Tech,UVA,N,66,60,6
-2024,2025-03-13,Georgia Tech,Duke,N,70,78,-8
-2025,2025-12-31,Georgia Tech,Duke,A,79,85,-6
-2025,2026-01-03,Georgia Tech,Boston College,H,65,53,12
-2025,2026-01-06,Georgia Tech,Syracuse,H,72,82,-10
 2025,2026-01-10,Georgia Tech,Miami,A,81,91,-10
-2025,2026-01-14,Georgia Tech,Pitt,H,66,89,-23
-2025,2026-01-17,Georgia Tech,NC State,A,78,74,4
-2025,2026-01-24,Georgia Tech,Clemson,H,63,77,-14
-2025,2026-01-27,Georgia Tech,Virginia Tech,A,65,71,-6
-2025,2026-01-31,Georgia Tech,UNC,H,75,91,-16
-2020,2020-12-16,Miami,Pitt,H,55,70,-15
-2020,2020-12-29,Miami,Virginia Tech,A,78,80,-2
-2020,2021-01-02,Miami,Clemson,H,65,66,-1
-2020,2021-01-05,Miami,UNC,H,65,67,-2
-2020,2021-01-09,Miami,NC State,A,64,59,5
-2020,2021-01-12,Miami,Boston College,A,62,84,-22
 2020,2021-01-16,Miami,Louisville,H,78,72,6
-2020,2021-01-19,Miami,Syracuse,A,57,83,-26
-2020,2021-01-27,Miami,Florida State,A,59,81,-22
-2020,2021-01-30,Miami,Wake Forest,A,54,66,-12
-2020,2021-02-01,Miami,Duke,H,77,75,2
-2020,2021-02-06,Miami,Virginia Tech,H,76,80,-4
-2020,2021-02-20,Miami,Georgia Tech,H,60,87,-27
-2020,2021-02-24,Miami,Florida State,H,71,88,-17
-2020,2021-02-27,Miami,Clemson,A,58,66,-8
-2020,2021-03-01,Miami,UVA,A,51,62,-11
-2020,2021-03-05,Miami,Boston College,H,80,76,4
-2020,2021-03-09,Miami,Pitt,N,79,73,6
-2020,2021-03-10,Miami,Clemson,N,67,64,3
-2020,2021-03-11,Miami,Georgia Tech,N,66,70,-4
-2021,2021-12-04,Miami,Clemson,H,80,75,5
-2021,2021-12-29,Miami,NC State,H,91,83,8
-2021,2022-01-01,Miami,Wake Forest,H,92,84,8
-2021,2022-01-05,Miami,Syracuse,H,88,87,1
-2021,2022-01-08,Miami,Duke,A,76,74,2
-2021,2022-01-11,Miami,Florida State,A,64,65,-1
-2021,2022-01-18,Miami,UNC,H,85,57,28
-2021,2022-01-22,Miami,Florida State,H,60,61,-1
-2021,2022-01-26,Miami,Virginia Tech,A,78,75,3
-2021,2022-01-29,Miami,Georgia Tech,A,73,62,11
-2021,2022-02-05,Miami,UVA,A,58,71,-13
-2021,2022-02-09,Miami,Georgia Tech,H,79,70,9
-2021,2022-02-12,Miami,Wake Forest,A,76,72,4
 2021,2022-02-16,Miami,Louisville,A,70,63,7
-2021,2022-02-19,Miami,UVA,H,71,74,-3
-2021,2022-02-22,Miami,Pitt,A,85,64,21
-2021,2022-02-26,Miami,Virginia Tech,H,70,71,-1
-2021,2022-03-02,Miami,Boston College,A,81,70,11
-2021,2022-03-05,Miami,Syracuse,A,75,72,3
-2021,2022-03-10,Miami,Boston College,N,71,69,2
-2021,2022-03-11,Miami,Duke,N,76,80,-4
 2022,2022-12-04,Miami,Louisville,A,80,53,27
-2022,2022-12-10,Miami,NC State,H,80,73,7
-2022,2022-12-20,Miami,UVA,H,66,64,2
-2022,2023-01-04,Miami,Georgia Tech,A,70,76,-6
-2022,2023-01-11,Miami,Boston College,H,88,72,16
-2022,2023-01-14,Miami,NC State,A,81,83,-2
-2022,2023-01-16,Miami,Syracuse,H,82,78,4
-2022,2023-01-21,Miami,Duke,A,66,68,-2
-2022,2023-01-24,Miami,Florida State,A,86,63,23
-2022,2023-01-28,Miami,Pitt,A,68,71,-3
-2022,2023-01-31,Miami,Virginia Tech,H,92,83,9
-2022,2023-02-04,Miami,Clemson,A,78,74,4
-2022,2023-02-06,Miami,Duke,H,81,59,22
 2022,2023-02-11,Miami,Louisville,H,93,85,8
-2022,2023-02-13,Miami,UNC,A,80,72,8
-2022,2023-02-18,Miami,Wake Forest,H,96,87,9
-2022,2023-02-21,Miami,Virginia Tech,A,76,70,6
-2022,2023-02-25,Miami,Florida State,H,84,85,-1
-2022,2023-03-04,Miami,Pitt,H,78,76,2
-2022,2023-03-09,Miami,Wake Forest,N,74,72,2
-2022,2023-03-10,Miami,Duke,N,78,85,-7
-2023,2024-01-03,Miami,Clemson,H,95,82,13
-2023,2024-01-06,Miami,Wake Forest,A,82,86,-4
 2023,2024-01-10,Miami,Louisville,H,71,80,-9
-2023,2024-01-13,Miami,Virginia Tech,A,75,71,4
-2023,2024-01-17,Miami,Florida State,H,75,84,-9
-2023,2024-01-20,Miami,Syracuse,A,69,72,-3
-2023,2024-01-27,Miami,Pitt,H,72,68,4
-2023,2024-01-30,Miami,NC State,A,68,74,-6
-2023,2024-02-03,Miami,Virginia Tech,H,82,74,8
-2023,2024-02-05,Miami,UVA,A,38,60,-22
-2023,2024-02-10,Miami,UNC,H,72,75,-3
-2023,2024-02-14,Miami,Clemson,A,60,77,-17
-2023,2024-02-17,Miami,Boston College,A,77,85,-8
-2023,2024-02-21,Miami,Duke,H,55,84,-29
-2023,2024-02-24,Miami,Georgia Tech,H,76,80,-4
-2023,2024-02-26,Miami,UNC,A,71,75,-4
-2023,2024-03-06,Miami,Boston College,H,57,67,-10
-2023,2024-03-09,Miami,Florida State,A,75,83,-8
-2023,2024-03-12,Miami,Boston College,N,65,81,-16
-2024,2024-12-07,Miami,Clemson,H,55,65,-10
-2024,2025-01-01,Miami,Boston College,A,68,78,-10
-2024,2025-01-04,Miami,Virginia Tech,A,85,86,-1
-2024,2025-01-08,Miami,Florida State,H,65,80,-15
-2024,2025-01-11,Miami,Wake Forest,H,78,88,-10
-2024,2025-01-14,Miami,Duke,A,54,89,-35
 2024,2025-01-18,Miami,SMU,H,74,117,-43
 2024,2025-01-22,Miami,Stanford,A,51,88,-37
-2024,2025-01-29,Miami,UVA,H,71,82,-11
 2024,2025-02-08,Miami,Louisville,A,78,88,-10
-2024,2025-02-11,Miami,Syracuse,H,91,84,7
-2024,2025-02-15,Miami,Pitt,A,65,74,-9
-2024,2025-02-19,Miami,Florida State,A,66,74,-8
-2024,2025-02-22,Miami,Virginia Tech,H,68,81,-13
-2024,2025-02-25,Miami,Duke,H,60,97,-37
-2024,2025-03-01,Miami,UNC,A,73,92,-19
-2024,2025-03-04,Miami,Georgia Tech,A,74,89,-15
-2024,2025-03-08,Miami,NC State,H,72,70,2
-2025,2025-12-30,Miami,Pitt,H,76,69,7
-2025,2026-01-07,Miami,Wake Forest,A,81,77,4
-2025,2026-01-10,Miami,Georgia Tech,H,91,81,10
-2025,2026-01-17,Miami,Clemson,A,59,69,-10
-2025,2026-01-20,Miami,Florida State,H,63,65,-2
-2025,2026-01-24,Miami,Syracuse,A,85,76,9
 2025,2026-01-28,Miami,Stanford,H,79,70,9
-2023,2023-12-16,SMU,Florida State,A,68,57,11
-2024,2024-12-07,SMU,UVA,H,63,51,12
-2024,2024-12-21,SMU,Boston College,A,103,77,26
-2024,2025-01-04,SMU,Duke,H,62,89,-27
-2024,2025-01-07,SMU,UNC,A,67,82,-15
-2024,2025-01-11,SMU,Georgia Tech,H,93,71,22
-2024,2025-01-15,SMU,UVA,A,54,52,2
-2024,2025-01-18,SMU,Miami,A,117,74,43
 2024,2025-01-21,SMU,Louisville,H,73,98,-25
-2024,2025-01-25,SMU,NC State,A,63,57,6
 2024,2025-02-01,SMU,Stanford,H,85,61,24
-2024,2025-02-05,SMU,Virginia Tech,A,81,75,6
-2024,2025-02-11,SMU,Pitt,H,83,63,20
-2024,2025-02-15,SMU,Wake Forest,H,66,77,-11
-2024,2025-02-22,SMU,Clemson,H,69,79,-10
 2024,2025-03-01,SMU,Stanford,A,68,73,-5
-2024,2025-03-04,SMU,Syracuse,H,77,75,2
-2024,2025-03-08,SMU,Florida State,A,69,76,-7
-2024,2025-03-12,SMU,Syracuse,N,73,53,20
-2024,2025-03-13,SMU,Clemson,N,54,57,-3
-2025,2026-01-03,SMU,UNC,H,97,83,14
-2025,2026-01-07,SMU,Clemson,A,70,74,-4
-2025,2026-01-10,SMU,Duke,A,75,82,-7
-2025,2026-01-14,SMU,Virginia Tech,H,77,76,1
-2025,2026-01-17,SMU,UVA,H,68,72,-4
-2025,2026-01-20,SMU,Wake Forest,A,91,79,12
-2025,2026-01-24,SMU,Florida State,H,83,80,3
 2025,2026-01-31,SMU,Louisville,A,74,88,-14
-2025,2026-02-03,SMU,NC State,H,83,84,-1
 2020,2021-02-04,Cal,Stanford,H,55,70,-15
 2020,2021-02-07,Cal,Stanford,A,70,76,-6
 2020,2021-03-10,Cal,Stanford,N,76,58,18
@@ -1443,133 +804,6 @@ season,date,team,opponent,location,team_score,opp_score,diff
 2025,2026-01-28,Cal,Florida State,A,61,63,-2
 2025,2026-01-31,Cal,Miami,A,86,85,1
 2025,2026-02-04,Cal,Georgia Tech,H,90,85,5
-2020,2020-12-01,Stanford,UNC,N,63,67,-4
-2022,2022-11-25,Stanford,Florida State,N,70,60,10
-2024,2025-01-01,Stanford,Clemson,A,71,85,-14
-2024,2025-01-04,Stanford,Pitt,A,68,83,-15
-2024,2025-01-08,Stanford,Virginia Tech,H,70,59,11
-2024,2025-01-11,Stanford,UVA,H,88,65,23
-2024,2025-01-15,Stanford,Wake Forest,A,67,80,-13
-2024,2025-01-18,Stanford,UNC,A,72,71,1
-2024,2025-01-22,Stanford,Miami,H,88,51,37
-2024,2025-01-25,Stanford,Florida State,H,78,71,7
-2024,2025-01-29,Stanford,Syracuse,H,70,61,9
-2024,2025-02-01,Stanford,SMU,A,61,85,-24
-2024,2025-02-05,Stanford,Wake Forest,H,73,79,-6
-2024,2025-02-08,Stanford,NC State,H,74,73,1
-2024,2025-02-12,Stanford,Georgia Tech,A,52,60,-8
-2024,2025-02-15,Stanford,Duke,A,70,106,-36
-2024,2025-02-26,Stanford,Boston College,H,78,60,18
-2024,2025-03-01,Stanford,SMU,H,73,68,5
 2024,2025-03-08,Stanford,Louisville,A,48,68,-20
 2024,2025-03-13,Stanford,Louisville,N,73,75,-2
 2025,2026-01-02,Stanford,Louisville,H,80,76,4
-2025,2026-01-07,Stanford,Virginia Tech,A,69,68,1
-2025,2026-01-10,Stanford,UVA,A,55,70,-15
-2025,2026-01-14,Stanford,UNC,H,95,90,5
-2025,2026-01-17,Stanford,Duke,H,50,80,-30
-2025,2026-01-28,Stanford,Miami,A,70,79,-9
-2025,2026-01-31,Stanford,Florida State,A,80,88,-8
-2025,2026-02-04,Stanford,Clemson,H,64,66,-2
-2020,2020-12-22,Louisville,Pitt,A,64,54,10
-2020,2021-01-02,Louisville,Boston College,A,76,64,12
-2020,2021-01-06,Louisville,Virginia Tech,H,73,71,2
-2020,2021-01-13,Louisville,Wake Forest,A,77,65,12
-2020,2021-01-16,Louisville,Miami,A,72,78,-6
-2020,2021-01-18,Louisville,Florida State,H,65,78,-13
-2020,2021-01-23,Louisville,Duke,H,70,65,5
-2020,2021-01-27,Louisville,Clemson,A,50,54,-4
-2020,2021-02-01,Louisville,Georgia Tech,H,74,58,16
-2020,2021-02-20,Louisville,UNC,A,54,99,-45
-2020,2021-02-27,Louisville,Duke,A,80,73,7
-2020,2021-03-06,Louisville,UVA,H,58,68,-10
-2020,2021-03-10,Louisville,Duke,N,56,70,-14
-2021,2021-12-04,Louisville,NC State,A,73,68,5
-2021,2021-12-29,Louisville,Wake Forest,H,73,69,4
-2021,2022-01-02,Louisville,Georgia Tech,A,67,64,3
-2021,2022-01-05,Louisville,Pitt,H,75,72,3
-2021,2022-01-08,Louisville,Florida State,A,70,79,-9
-2021,2022-01-12,Louisville,NC State,H,63,79,-16
-2021,2022-01-15,Louisville,Pitt,A,53,65,-12
-2021,2022-01-19,Louisville,Boston College,H,67,54,13
-2021,2022-01-24,Louisville,UVA,A,52,64,-12
-2021,2022-01-29,Louisville,Duke,H,65,74,-9
-2021,2022-02-01,Louisville,UNC,H,83,90,-7
-2021,2022-02-05,Louisville,Syracuse,A,69,92,-23
-2021,2022-02-16,Louisville,Miami,H,63,70,-7
-2021,2022-02-19,Louisville,Clemson,H,70,61,9
-2021,2022-02-21,Louisville,UNC,A,63,70,-7
-2021,2022-02-26,Louisville,Wake Forest,A,77,99,-22
-2021,2022-03-01,Louisville,Virginia Tech,A,43,75,-32
-2021,2022-03-05,Louisville,UVA,H,61,71,-10
-2021,2022-03-08,Louisville,Georgia Tech,N,84,74,10
-2021,2022-03-09,Louisville,UVA,N,50,51,-1
-2022,2022-12-04,Louisville,Miami,H,53,80,-27
-2022,2022-12-10,Louisville,Florida State,A,53,75,-22
-2022,2022-12-22,Louisville,NC State,A,64,76,-12
-2022,2023-01-03,Louisville,Syracuse,H,69,70,-1
-2022,2023-01-07,Louisville,Wake Forest,H,72,80,-8
-2022,2023-01-11,Louisville,Clemson,A,70,83,-13
-2022,2023-01-14,Louisville,UNC,H,59,80,-21
-2022,2023-01-18,Louisville,Pitt,H,54,75,-21
-2022,2023-01-25,Louisville,Boston College,A,65,75,-10
-2022,2023-02-01,Louisville,Georgia Tech,H,68,58,10
-2022,2023-02-04,Louisville,Florida State,H,78,81,-3
-2022,2023-02-07,Louisville,Pitt,A,57,91,-34
-2022,2023-02-11,Louisville,Miami,A,85,93,-8
-2022,2023-02-15,Louisville,UVA,H,58,61,-3
-2022,2023-02-18,Louisville,Clemson,H,83,73,10
-2022,2023-02-20,Louisville,Duke,A,62,79,-17
-2022,2023-02-25,Louisville,Georgia Tech,A,67,83,-16
-2022,2023-02-28,Louisville,Virginia Tech,H,54,71,-17
-2022,2023-03-04,Louisville,UVA,A,60,75,-15
-2022,2023-03-07,Louisville,Boston College,N,62,80,-18
-2023,2023-12-03,Louisville,Virginia Tech,A,68,75,-7
-2023,2024-01-03,Louisville,UVA,A,53,77,-24
-2023,2024-01-06,Louisville,Pitt,H,70,83,-13
-2023,2024-01-10,Louisville,Miami,A,80,71,9
-2023,2024-01-13,Louisville,NC State,H,83,89,-6
-2023,2024-01-17,Louisville,UNC,A,70,86,-16
-2023,2024-01-20,Louisville,Wake Forest,A,65,90,-25
-2023,2024-01-23,Louisville,Duke,H,69,83,-14
-2023,2024-01-27,Louisville,UVA,H,52,69,-17
-2023,2024-01-30,Louisville,Clemson,A,64,70,-6
-2023,2024-02-03,Louisville,Florida State,H,101,92,9
-2023,2024-02-07,Louisville,Syracuse,A,92,94,-2
-2023,2024-02-10,Louisville,Georgia Tech,H,79,67,12
-2023,2024-02-13,Louisville,Boston College,A,77,89,-12
-2023,2024-02-17,Louisville,Pitt,A,59,86,-27
-2023,2024-02-28,Louisville,Duke,A,59,84,-25
-2023,2024-03-02,Louisville,Syracuse,H,76,82,-6
-2023,2024-03-05,Louisville,Virginia Tech,H,64,80,-16
-2023,2024-03-09,Louisville,Boston College,H,61,67,-6
-2023,2024-03-12,Louisville,NC State,N,85,94,-9
-2024,2024-12-08,Louisville,Duke,H,65,76,-11
-2024,2024-12-21,Louisville,Florida State,A,90,76,14
-2024,2025-01-01,Louisville,UNC,H,83,70,13
-2024,2025-01-04,Louisville,UVA,A,70,50,20
-2024,2025-01-07,Louisville,Clemson,H,74,64,10
-2024,2025-01-11,Louisville,Pitt,A,82,78,4
-2024,2025-01-14,Louisville,Syracuse,A,85,61,24
-2024,2025-01-18,Louisville,UVA,H,81,67,14
-2024,2025-01-21,Louisville,SMU,A,98,73,25
-2024,2025-01-28,Louisville,Wake Forest,H,72,59,13
-2024,2025-02-01,Louisville,Georgia Tech,A,70,77,-7
-2024,2025-02-05,Louisville,Boston College,A,84,58,26
-2024,2025-02-08,Louisville,Miami,H,88,78,10
-2024,2025-02-12,Louisville,NC State,A,91,66,25
-2024,2025-02-22,Louisville,Florida State,H,89,81,8
-2024,2025-02-25,Louisville,Virginia Tech,A,71,66,5
-2024,2025-03-01,Louisville,Pitt,H,79,68,11
-2024,2025-03-08,Louisville,Stanford,H,68,48,20
-2024,2025-03-13,Louisville,Stanford,N,75,73,2
-2024,2025-03-14,Louisville,Clemson,N,76,73,3
-2024,2025-03-15,Louisville,Duke,N,62,73,-11
-2025,2026-01-02,Louisville,Stanford,A,76,80,-4
-2025,2026-01-06,Louisville,Duke,H,73,84,-11
-2025,2026-01-10,Louisville,Boston College,H,75,62,13
-2025,2026-01-13,Louisville,UVA,H,70,79,-9
-2025,2026-01-17,Louisville,Pitt,A,100,59,41
-2025,2026-01-24,Louisville,Virginia Tech,H,85,71,14
-2025,2026-01-26,Louisville,Duke,A,52,83,-31
-2025,2026-01-31,Louisville,SMU,H,88,74,14
