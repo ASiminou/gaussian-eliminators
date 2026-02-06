@@ -1,0 +1,108 @@
+---
+title: "Predicting ACC Basketball Results"
+author: "Oliver Lublin, Aaron Siminou, Ben Wu"
+format: html
+---
+
+```{r}
+#| label: packages
+#| message: false
+library(tidyverse)
+library(ncaahoopR)
+library(dplyr)
+library(purrr)
+library(stringr)
+
+```
+
+1 and 2 are different because of labeling issues with the ncaahoopR package, where values in the "opponent" column for a team's schedule are sometimes different than the team ID. This occurs for Virginia, North Carolina, and Pittsburgh in the ACC. 
+```{r}
+acc_teams1 <- c(
+  "Duke", "North Carolina", "Virginia", "Pittsburgh", "Clemson",
+  "Syracuse", "Virginia Tech", "Florida State", "NC State",
+  "Wake Forest", "Boston College", "Georgia Tech",
+  "Miami", "SMU", "Cal", "Stanford", "Louisville"
+)
+
+acc_teams2 <- c(
+  "Duke", "UNC", "UVA", "Pitt", "Clemson",
+  "Syracuse", "Virginia Tech", "Florida State", "NC State",
+  "Wake Forest", "Boston College", "Georgia Tech",
+  "Miami", "SMU", "Cal", "Stanford", "Louisville"
+)
+
+
+years <- 2020:2025
+```
+
+
+
+
+```{r}
+get_acc_games <- function(team, year) {
+  get_schedule(team, year) |>
+    filter(opponent %in% acc_teams1) |>
+    mutate(
+      season = year,
+      opponent = opponent, 
+      team = team
+    ) |>
+    select(
+      season,
+      date,
+      team,
+      opponent,
+      location,
+      team_score,
+      opp_score,
+    )
+}
+
+```
+
+```{r}
+acc_games <- data.frame()
+
+for(team in acc_teams2){
+  for(year in years){
+    sched <- get_acc_games(team, year)
+    acc_games <- bind_rows(acc_games, sched)
+  }
+}
+```
+
+
+```{r}
+acc_games_cleaned <- acc_games |>
+  drop_na() |>
+  mutate(
+    opponent = case_when(
+      opponent == "Pittsburgh" ~ "Pitt",
+      opponent == "Virginia" ~ "UVA", 
+      opponent == "North Carolina" ~"UNC",
+      .default = opponent
+    ),
+    diff = team_score - opp_score
+  )
+```
+
+
+
+```{r}
+acc_games_cleaned <- acc_games_cleaned |>
+  mutate(
+    matchup = paste0(pmin(team, opponent), "_", pmax(team, opponent))
+  ) |>
+  distinct(season, date, matchup, .keep_all = TRUE) |>
+  select(-matchup)
+```
+
+
+```{r}
+head(acc_games_cleaned, 10)
+```
+```{r}
+write_csv(acc_games_cleaned, "data/acc_games_cleaned.csv")
+```
+
+
