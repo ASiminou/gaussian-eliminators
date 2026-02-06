@@ -1,6 +1,14 @@
 ---
-title: "main"
+title: "Predicting ACC Basketball Results"
 author: "Oliver Lublin, Aaron Siminou, Ben Wu"
 format: html
 ---
+
+```{r}
+#| label: packages
+#| message: false
+library(tidyverse)
+library(ncaahoopR)
+
+```
 
