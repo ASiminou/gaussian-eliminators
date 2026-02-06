@@ -11,7 +11,8 @@ library(dplyr)
 
 ```{r}
 acc_games <- read.csv("data/acc_games_cleaned.csv")
-acc_teams_stats <- read.csv("data/combined_acc.csv")
+acc_teams_stats <- read.csv("data/combined_acc.csv") |>
+  mutate(opponent = TeamName)
 ```
 
 ```{r}
@@ -51,10 +52,51 @@ merged_data <- left_join(
   acc_teams_stats,
   by = c("TeamName", "Season")
 ) |>
-  drop_na()
+  drop_na() |>
+  rename("home_eFGPct" = "eFGPct",
+         "home_TOPct" = "TOPct",
+         "home_ORPct" = "ORPct",
+         "home_FTRate" = "FTRate",
+         "opponent" = "opponent.x"
+         ) |>
+  select(-opponent.y)
+
+
 ```
 
 ```{r}
-model_1 <- 
+merged_all <- left_join(
+  merged_data,
+  acc_teams_stats,
+  by = c("opponent", "Season")
+) |>
+  rename("away_eFGPct" = "eFGPct",
+         "away_TOPct" = "TOPct",
+         "away_ORPct" = "ORPct",
+         "away_FTRate" = "FTRate",
+         "TeamName" = "TeamName.x"
+         ) |>
+  mutate(
+    diff_eFGPct = home_eFGPct - away_eFGPct,
+    diff_TOPct = home_TOPct - away_TOPct,
+    diff_ORPct = home_ORPct - away_ORPct,
+    diff_FTRate = home_FTRate - away_FTRate
+  ) |>
+  select(
+    TeamName, opponent, location, team_score, opp_score, diff, Season, diff_eFGPct, diff_TOPct, diff_ORPct, diff_FTRate
+  )|>
+  relocate(TeamName, opponent, Season)
+```
+
+
+
+
+```{r}
+model_1 <- lm(diff ~ diff_eFGPct + diff_TOPct + diff_ORPct + diff_FTRate, data = merged_all)
+
+summary(model_1)$r.squared
+```
+```{r}
+
 ```
 
