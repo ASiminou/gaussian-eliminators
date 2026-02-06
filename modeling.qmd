@@ -3,3 +3,58 @@ title: "modeling"
 format: html
 ---
 
+```{r}
+library(readr)
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+acc_games <- read.csv("data/acc_games_cleaned.csv")
+acc_teams_stats <- read.csv("data/combined_acc.csv")
+```
+
+```{r}
+acc_games <- acc_games |>
+  mutate(Season = season + 1,
+         TeamName = team) |>
+  select(-season, -team) |>
+  filter(Season != 2021) |>
+  mutate(
+    TeamName = case_when(
+      TeamName == "Cal" ~ "California",
+      TeamName == "UNC" ~ "North Carolina",
+      TeamName == "Florida State" ~ "Florida St.",
+      TeamName == "UVA" ~ "Virginia",
+      TeamName == "Miami" ~ "Miami FL",
+      TeamName == "Pitt" ~ "Pittsburgh",
+      TeamName == "NC State" ~ "N.C. State",
+      TRUE ~ TeamName
+    )
+  ) |>
+  mutate(
+    opponent = case_when(
+      opponent == "Cal" ~ "California",
+      opponent == "UNC" ~ "North Carolina",
+      opponent == "Florida State" ~ "Florida St.",
+      opponent == "UVA" ~ "Virginia",
+      opponent == "Miami" ~ "Miami FL",
+      opponent == "Pitt" ~ "Pittsburgh",
+      opponent == "NC State" ~ "N.C. State",
+      TRUE ~ opponent)
+    )
+```
+
+```{r}
+merged_data <- left_join(
+  acc_games,
+  acc_teams_stats,
+  by = c("TeamName", "Season")
+) |>
+  drop_na()
+```
+
+```{r}
+model_1 <- 
+```
+
