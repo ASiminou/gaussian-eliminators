@@ -1,0 +1,186 @@
+---
+title: "model2"
+format: html
+---
+
+```{r}
+library(readr)
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+defense22 <- read.csv("data/defense22.csv")
+defense23 <- read.csv("data/defense23.csv")
+defense24 <- read.csv("data/defense24.csv")
+defense25 <- read.csv("data/defense25.csv")
+defense26 <- read.csv("data/defense26 (1).csv")
+offense <- read.csv("data/combined_acc.csv") |>
+  rename(eFGPct_offense = eFGPct,
+         TOPct_offense = TOPct,
+         ORPct_offense = ORPct,
+         FTRate_offense = FTRate)
+```
+
+```{r}
+acc <- c("Duke", "Clemson", "Virginia", "N.C. State", "North Carolina", "Miami FL",
+         "Louisville", "Virginia Tech", "Syracuse", "Florida St.", "Wake Forest",
+         "Boston College", "Pittsburgh", "Georgia Tech", "Notre Dame")
+
+new_acc <- c("Duke", "Clemson", "Virginia", "N.C. State", "North Carolina", "Miami FL",
+         "Louisville", "Virginia Tech", "Syracuse", "Florida St.", "Wake Forest",
+         "Boston College", "Pittsburgh", "Georgia Tech", "Notre Dame",
+         "Stanford", "California", "SMU")
+```
+
+```{r}
+defense22 <- defense22 |>
+  filter(TeamName %in% acc) |>
+  select(-RankeFGPct, -RankTOPct, -RankORPct, -RankFTRate)
+
+defense23 <- defense23 |>
+  filter(TeamName %in% acc) |>
+  select(-RankeFGPct, -RankTOPct, -RankORPct, -RankFTRate)
+
+defense24 <- defense24 |>
+  filter(TeamName %in% acc) |>
+  select(-RankeFGPct, -RankTOPct, -RankORPct, -RankFTRate)
+
+defense25 <- defense25 |>
+  filter(TeamName %in% new_acc) |>
+  select(-RankeFGPct, -RankTOPct, -RankORPct, -RankFTRate)
+
+defense26 <- defense26 |>
+  filter(TeamName %in% new_acc) |>
+  select(-RankeFGPct, -RankTOPct, -RankORPct, -RankFTRate)
+```
+
+```{r}
+combined_defense <- bind_rows(defense22, defense23, defense24, defense25, defense26) |>
+  rename(eFGPct_defense = eFGPct,
+         TOPct_defense = TOPct,
+         ORPct_defense = ORPct,
+         FTRate_defense = FTRate)
+```
+
+```{r}
+full_stats <- left_join(
+  combined_defense,
+  offense,
+  by = c("Season", "TeamName")
+) |>
+  mutate(opponent = TeamName)
+```
+
+```{r}
+acc_games <- read.csv("data/acc_games_cleaned.csv") |>
+  mutate(Season = season + 1,
+         TeamName = team) |>
+  select(-season, -team) |>
+  filter(Season != 2021) |>
+  mutate(
+    TeamName = case_when(
+      TeamName == "Cal" ~ "California",
+      TeamName == "UNC" ~ "North Carolina",
+      TeamName == "Florida State" ~ "Florida St.",
+      TeamName == "UVA" ~ "Virginia",
+      TeamName == "Miami" ~ "Miami FL",
+      TeamName == "Pitt" ~ "Pittsburgh",
+      TeamName == "NC State" ~ "N.C. State",
+      TRUE ~ TeamName
+    )
+  ) |>
+  mutate(
+    opponent = case_when(
+      opponent == "Cal" ~ "California",
+      opponent == "UNC" ~ "North Carolina",
+      opponent == "Florida State" ~ "Florida St.",
+      opponent == "UVA" ~ "Virginia",
+      opponent == "Miami" ~ "Miami FL",
+      opponent == "Pitt" ~ "Pittsburgh",
+      opponent == "NC State" ~ "N.C. State",
+      TRUE ~ opponent)
+    )
+```
+
+```{r}
+games_and_stats <- left_join(
+  acc_games,
+  full_stats,
+  by = c("TeamName", "Season")) |>
+  drop_na() |>
+  rename("home_eFGPct_offense" = "eFGPct_offense",
+         "home_TOPct_offense" = "TOPct_offense",
+         "home_ORPct_offense" = "ORPct_offense",
+         "home_FTRate_offense" = "FTRate_offense",
+         "home_eFGPct_defense" = "eFGPct_defense",
+         "home_TOPct_defense" = "TOPct_defense",
+         "home_ORPct_defense" = "ORPct_defense",
+         "home_FTRate_defense" = "FTRate_defense",
+         "opponent" = "opponent.x"
+         ) |>
+  select(-date, -team_score, - opp_score, -opponent.y) |>
+  relocate(Season, TeamName, opponent) |>
+  mutate(home = if_else(location == "N", 0, 1)) |>
+  select(-location)
+```
+
+```{r}
+full_games_and_stats <- left_join(
+  games_and_stats,
+  full_stats,
+  by = c("opponent", "Season")
+) |>
+  rename("away_eFGPct_offense" = "eFGPct_offense",
+         "away_TOPct_offense" = "TOPct_offense",
+         "away_ORPct_offense" = "ORPct_offense",
+         "away_FTRate_offense" = "FTRate_offense",
+         "away_eFGPct_defense" = "eFGPct_defense",
+         "away_TOPct_defense" = "TOPct_defense",
+         "away_ORPct_defense" = "ORPct_defense",
+         "away_FTRate_defense" = "FTRate_defense",
+         "TeamName" = "TeamName.x"
+         ) |>
+  select(-TeamName.y) |>
+  mutate(
+    diff_eFGPct_offense = home_eFGPct_offense - away_eFGPct_offense,
+    diff_TOPct_offense = home_TOPct_offense - away_TOPct_offense,
+    diff_ORPct_offense = home_ORPct_offense - away_ORPct_offense,
+    diff_FTRate_offense = home_FTRate_offense - away_FTRate_offense,
+    diff_eFGPct_defense = home_eFGPct_defense - away_eFGPct_defense,
+    diff_TOPct_defense = home_TOPct_defense - away_TOPct_defense,
+    diff_ORPct_defense = home_ORPct_defense - away_ORPct_defense,
+    diff_FTRate_defense = home_FTRate_defense - away_FTRate_defense,
+  ) |>
+  select(
+    TeamName, opponent, diff, Season, diff_eFGPct_offense, diff_TOPct_offense, diff_ORPct_offense, diff_FTRate_offense,
+    diff_eFGPct_defense, diff_TOPct_defense, diff_ORPct_defense, diff_FTRate_defense, home
+  )|>
+  relocate(Season, TeamName, opponent)
+```
+
+```{r}
+model2 <- lm(diff ~ diff_eFGPct_offense + diff_TOPct_offense + diff_ORPct_offense + diff_FTRate_offense + 
+               diff_eFGPct_defense + diff_TOPct_defense + diff_ORPct_defense + diff_FTRate_defense + home,
+             data = full_games_and_stats)
+
+summary(model2)
+```
+
+```{r}
+model2_predicted <- full_games_and_stats |>
+  mutate(predicted = predict(model2, newdata = full_games_and_stats))
+```
+
+```{r}
+ggplot(model2_predicted, aes(x = predicted, y = diff)) +
+         geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+```
+
+```{r}
+lm2 <- lm(diff ~ predicted, data = model2_predicted)
+
+coef(lm2)
+```
+
